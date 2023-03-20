@@ -169,10 +169,4 @@
         #cr:hover{
             text-align: end;
         }
-        div:hover{
-            width: 300px;
-            height: 300px;
-            border: rgb(230, 93, 78) solid 5px;
-            background-color: aliceblue;
-        }
 </style>
