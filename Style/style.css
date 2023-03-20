@@ -1,0 +1,173 @@
+<style> 
+    body{ background-color: #212121;
+        color: rgb(0, 0, 0);
+        margin: auto;
+        max-width: 800px;
+        min-width: 1600px;
+    }    
+    main{
+        max-width: 1000px;
+        min-width: 300px;
+        margin: auto;
+        }
+        h1 > div{
+            margin-right: 520px;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            margin-right: 0px;
+            padding-right: 10px;
+        }
+        #tex{
+            padding-top: 17px;
+            padding-left: 17px;
+            border-top: 10px;
+            margin-top: 2px;
+        }
+        #cr{
+            padding-left: 8px;
+            border: rgb(116, 3, 3);
+            border-width: 1px;
+            border-style: solid;
+            text-align: start;
+            background-color: rgb(212, 32, 47);
+            position: relative;
+            color: rgb(0, 0, 0);
+        }
+        #cr:hover{
+            color: rgb(224, 221, 221);
+            display: none;
+        }
+        div > #tox:hover{
+            color: black;
+        }
+        div > #a1:hover{
+            color: black;
+        }
+        #a1{
+            background-color: rgb(77, 76, 76);
+            color: aliceblue;
+            padding: 10px;
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 680px;
+            border-radius: 10px;
+            border-left: 6px solid rgb(212, 32, 47);
+        }
+        #a2{
+            background-color: rgb(77, 76, 76);
+            color: aliceblue;
+            padding: 10px;
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 60px;
+            border-radius: 10px;
+            border-left: 6px solid rgb(212, 32, 47);
+        }
+        div > #a2:hover{
+            color: black;
+        }
+        div > picture > img{
+            margin-right: 1000px;
+            padding-bottom: 10px;
+            padding-top: 20px;
+        }
+        div img{
+            margin-top: 30px;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+        div a{
+            text-decoration: none;
+        }
+        .iprime{
+            text-align: start;
+        }
+        #j1{
+            color: aliceblue;
+            display: inline-block;
+            font-size: 17px;
+        }
+        .j3{
+            margin-left: 116px;
+            max-width: 80px;
+            margin-bottom: 10px;
+    
+        }
+        .j4{
+            margin-left: 135px;
+            max-width: 80px;
+            margin-bottom: 10px;
+            
+        }
+        .j5{
+            margin-left: 120px;
+            max-width: 120px;
+            margin-bottom: 10px;
+            
+        }
+        .j6{
+            margin-left: 103px;
+            max-width: 80px;
+    
+
+        }
+        .j7{
+            margin-left: 110px;
+            max-width: 80px;
+        }
+        .i2{
+            margin-left: 180px;
+            padding-right: 150px;
+        }
+        .a3{
+            background-color: rgb(77, 76, 76);
+            color: aliceblue;
+            padding: 10px;
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 680px;
+            border-radius: 10px;
+            border-left: 6px solid rgb(212, 32, 47);
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .a3:hover{
+            color: black;
+        }
+        .e1{
+            margin-left: 110px;
+        }
+        .e2{
+            margin-left: 229px;
+        }
+        .e3{
+            margin-left: 213px;
+        }
+        .e4{
+            margin-left: 83px;
+        }
+        .e5{
+            margin-left: 183px;
+        }
+        .e6{
+            margin-left: 213px;
+        }
+        #j1:hover{
+            text-decoration: underline black;
+            color: black;
+        }
+        .f3:hover{
+            color: red;
+        }
+        .f3{
+            text-decoration: none;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        #cr:hover{
+            text-align: end;
+        }
+</style>
