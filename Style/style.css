@@ -9,7 +9,7 @@
         min-width: 300px;
         margin-left: 150px;
         }
-        h1 > nav{
+        h1 > div{
             margin-right: 520px;
         }
         h1{
@@ -169,7 +169,7 @@
         #cr:hover{
             text-align: end;
         }
-        nav:hover{
+        div:hover{
             width: 300px;
             height: 300px;
             border: rgb(230, 93, 78) solid 5px;
