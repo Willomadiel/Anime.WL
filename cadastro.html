@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta</title>
+    <style>
+        body{
+            background-color: rgb(44, 43, 43);
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 30px;
+        }
+        fieldset{
+            height: 550px;
+            width: 600px;
+            text-align: justify;
+            font-size: 30px;
+            color: aliceblue;
+            display: inline-block;
+        }
+        fieldset > legend{
+            font-size: 30px;
+            text-align: center;
+            color: rgb(247, 247, 247)
+        }
+        fieldset #j1{
+            margin-left: 150px;
+            height: 60px;
+            width: 330px;
+            background-color: rgb(43, 146, 230);
+            font-size: 20px;
+        }
+        .s1{
+            height: 45px;
+            width: 250px;
+            background-color: rgb(42, 43, 43);
+        }
+        #date{
+            font-size: 18px;
+        }
+        h1 > div{
+            margin-right: 560px;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            margin-bottom: 5px;
+            margin-left: -30px;
+            padding-right: 20px;
+        }
+        #cr{
+            padding-left: 8px;
+            border: rgb(116, 3, 3);
+            border-width: 1px;
+            border-style: solid;
+            text-align: start;
+            background-color: rgb(212, 32, 47);
+            position: relative;
+            color: rgb(0, 0, 0);
+        }
+        #cr:hover{
+            color: rgb(224, 221, 221);
+            display: none;
+        }
+        #f1{
+           height: 310px;
+           display: b;
+           position: absolute;
+        }
+        div{
+            font-size: 18px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="line-height: normal 20pt;
+        background: #0E0E0E;
+        width: 1320px;
+        display: inline-block;">
+        <div id="cr" style="font-size: 27px;
+        display: inline-block;
+        text-align: start;
+        width: 32px;
+        ">&#9776;</div>
+        <a href="index.html" style="color: rgb(212, 32, 47);
+        display: inline-block;
+        text-decoration: none;">Animes Willo</a>
+        </h1>
+    <form action="Cadastro.py" method="post">
+        <fieldset>
+            <legend>Cadastre-se</legend>
+            <p><label for="name">Usuario:</label>
+                <input type="text" name="nome" id="name" required minlength="5" class="s1" maxlength="30" placeholder="Digite Seu Nome"></p>
+            <p><label for="email">E-mail:</label>
+                <input type="email" name="email" id="iemail" required max="30" class="s1" placeholder="Digite seu email"></p>
+            <p><label for="password">Senha:</label>
+                <input type="password" name="senha" id="password" required minlength="8" maxlength="20" class="s1" placeholder="Digite sua Senha"></p>
+            <p><label for="telefone">Telefone:</label>
+                <input type="tel" class="s1" name="telefone" id="telefone" placeholder="Digite seu Numero(opcional)" pattern="^\(\d{2}\)\d(4,5)-\d{4}$"></p>
+            <p><label for="date">Data de Nascimento:</label>
+                <input type="date" class="s1" name="data" id="date" required></p>
+            <div id="to"><input type="checkbox" name="lembrar" checked id="toremember">Lembrar senha</div>
+            <input type="submit" id="j1" value="Cadastrar">
+        </fieldset>
+    </form>
+    <form action="Cadastro.py" method="post">
+        <fieldset id="f1">
+            <legend>Login na Conta</legend>
+            <p><label for="name">Usuario:</label>
+                <input type="text" name="nome" id="name" required minlength="5" class="s1" maxlength="30" placeholder="Digite Seu Nome"></p>
+            <p><label for="password">Senha:</label>
+                <input type="password" name="senha" id="password" required minlength="8" maxlength="20" class="s1" placeholder="Digite sua Senha"></p>
+                <div id="to"><input type="checkbox" name="lembrar" checked id="toremember">Lembrar senha</div>
+                <input type="file" name="arquivo" id="file" meth>
+            <input type="submit" id="j1" value="Login">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -183,15 +183,28 @@
         }
         h2 img{
             margin-left: 40px;
+            width: 50px;
+            border-radius: 50%;
+            margin-top: 10px;
         }
         .f3{
             text-decoration: none;
             padding-top: 10px;
             padding-left: 10px;
+
         }
         h2{
             background-image: url('Icons/573701.jpg');
             background-position: center center; 
             background-size: 80%;
+
+        }
+        .search{
+            position: relative;
+            display: inline-block;
+            color: grey;
+        }
+        h2 img:hover{
+            transform: translate(-3px, -3px);
         }
 </style>
