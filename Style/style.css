@@ -194,10 +194,11 @@
 
         }
         h2{
-            background-image: url('Icons/573701.jpg');
+            background-image: url("");
             background-position: center center; 
+            padding-right: 10px;
             background-size: 80%;
-
+            
         }
         .search{
             position: relative;
@@ -206,5 +207,11 @@
         }
         h2 img:hover{
             transform: translate(-3px, -3px);
+        }
+        #perfil{
+            width: 28px;
+            border-radius: 50%;
+            margin-top: 10px;
+            display: inline-block;
         }
 </style>

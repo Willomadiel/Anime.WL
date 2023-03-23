@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Conta</title>
     <link rel="shortcut icon" href="Icons/icons8-w-key-16.png" type="image/x-icon">
     <style>
         body{
@@ -14,14 +14,15 @@
             text-align: center;
         }
         fieldset{
-            height: 600px;
-            width: 600px;
+            height: 500px;
+            display: block;
+            width: 400px;
             text-align: justify;
             font-size: 30px;
             color: aliceblue;
             display: inline-block;
             background-color: rgb(75, 75, 75);
-            border-color: rgb(247, 78, 78);
+            border-color: rgb(233, 58, 58);
             margin-bottom: 2px;
         }
         fieldset > legend{
@@ -30,11 +31,12 @@
             color: rgb(247, 247, 247)
         }
         fieldset #j1{
-            margin-left: 150px;
+            margin-left: 35px;
             height: 60px;
             width: 330px;
             background-color: rgb(43, 146, 230);
             font-size: 20px;
+            margin-top: 50px;
         }
         .s1{
             height: 45px;
@@ -69,11 +71,6 @@
             color: rgb(224, 221, 221);
             display: none;
         }
-        #f1{
-           height: 310px;
-           display: b;
-           position: absolute;
-        }
         div{
             font-size: 18px;
 
@@ -89,7 +86,6 @@
             padding-left: 160px;
             margin-top: 30px;
             display: block;
-            color: rgb(0, 15, 228);
         }
         h2{
             width: 1330px;
@@ -119,6 +115,24 @@
         h2 img:hover{
             transform: translate(-3px, -3px);
         }
+        #file{
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0px;
+        }
+        #h4{
+            font-size: 17px;
+            padding-top: 10px;
+            margin: 0px;
+            margin-top: 10px;
+        }
+        #k6{
+            font-size: 20px;
+            margin-top: 40px;
+            display: block;
+            padding-left: 50px;
+            color: rgb(0, 15, 228);
+        }
     </style>
 </head>
 <body>
@@ -145,21 +159,17 @@
         color: rgb(255, 255, 255);
         "> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z </div>
     <form action="Cadastro.py" method="post">
-        <fieldset>
-            <legend>Cadastre-se</legend>
+        <fieldset id="f1">
+            <legend>Login na Conta</legend>
             <p><label for="name">Usuario:</label>
                 <input type="text" name="nome" id="name" required minlength="5" class="s1" maxlength="30" placeholder="Digite Seu Nome"></p>
-            <p><label for="email">E-mail:</label>
-                <input type="email" name="email" id="iemail" required max="30" class="s1" placeholder="Digite seu email"></p>
             <p><label for="password">Senha:</label>
                 <input type="password" name="senha" id="password" required minlength="8" maxlength="20" class="s1" placeholder="Digite sua Senha"></p>
-            <p><label for="telefone">Telefone:</label>
-                <input type="tel" class="s1" name="telefone" id="telefone" placeholder="Digite seu Numero(opcional)" pattern="^\(\d{2}\)\d(4,5)-\d{4}$"></p>
-            <p><label for="date">Data de Nascimento:</label>
-                <input type="date" class="s1" name="data" id="date" required></p>
-            <div id="to"><input type="checkbox" name="lembrar" checked id="toremember">Lembrar senha</div>
-            <input type="submit" id="j1" value="Cadastrar">
-            <a class="l1" href="Conta.html">Ja tem uma conta?(Clique Aqui)</a>
+                <div id="to"><input type="checkbox" name="lembrar" checked id="toremember">Lembrar senha</div>
+            <p id="h4">Foto de Perfil</p>
+                <input type="file" name="arquivo"  id="file"> 
+            <input type="submit" id="j1" value="Login">
+            <a id="k6" href="cadastro.html">Não tem uma conta?(clique aqui)</a>
         </fieldset>
     </form>
     <h2>
