@@ -21,6 +21,7 @@ h1{
 #cr:hover{
     color: rgb(224, 221, 221);
     display: none;
+    cursor: pointer;
 }
 iframe{
     width: 400px;

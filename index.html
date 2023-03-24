@@ -7,39 +7,52 @@
     <link rel="shortcut icon" href="Icons/icons8-w-key-16.png" type="image/x-icon">
     <title>Anime.WL</title>
     <link rel="stylesheet" href="Style/style.css">
-    <link rel="stylesheet" href="tela/style.css" media="all">
-    <link rel="stylesheet" href="tela/retrato.css" media="screen and (orientation: portrait)">
-    <link rel="stylesheet" href="tela/paisagem.css" media="screen and(orientation landscape)">
     <style> 
         body{ background-color: #212121;
             color: rgb(0, 0, 0);
-            min-height: 100vh;
-            min-width: 100vh;
+            margin: 0px;
     }
     </style>
 </head>
 <body>
-        <h1 style="line-height: normal 20pt;
+        <h1 id="br" style="line-height: normal 20pt;
         background: #0E0E0E;
         width: 1330px;
+        padding-right: 18px;
         display: inline-block;">
         <div id="cr" style="font-size: 27px;
         display: inline-block;
         text-align: start;
-        width: 32px;
-        ">&#9776;</div>
+        width: 32px; 
+        " onclick="clickMenu()">&#9776;</div>
         <div style="color: rgb(212, 32, 47);
         display: inline-block;">Animes Willo</div>
-        <img id="perfil" src="Imagens/perfil.png" alt="">
-    </h1>
+        <img id="perfil" src="Imagens/perfil.png"  onclick="" alt=""></h1>
+        <menu id="itens">
+            <ul>
+                <h2>Generos</h2>
+                <li>Esporte</li>
+                <li>Aventura</li>
+                <li>Ação</li>
+                <li>Luta</li>
+                <li>Poderes</li>
+                <li>Comedia</li>
+                <li>Suspense</li>
+                <li>Drama</li>
+                <li>Culinaria</li>
+                <li>shounen</li>
+                <li>shoujo</li>
+                <li>seinen</li>
+            </ul>
+        </menu>
         <div class="f3" href="download.jpg" style=" height: 26px;
-        width: 1329px;
-        font-size: 16px;
-        letter-spacing: 18px;
+        width: 1337px;
+        font-size: 14px;
+        letter-spacing: 17.6px;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #0E0E0E;
         color: rgb(255, 255, 255);
-        "> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z </div>
+        "># A B C D E F G H I J K L M N O P Q R S T U V W X Y Z #</div>
         <main>
         <div a href="" id="tex" style="background-color: #0E0E0E; color: aliceblue;
         text-align: start;
@@ -112,7 +125,13 @@
         <a href="https://twitter.com/willomadiel" target="_blank"><img src="Imagens/icons8-twitter-64.png" alt=""></a>
     </h2>
     <script>
-        
+        function clickMenu(){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
     </script>
 </body>
 </html> 

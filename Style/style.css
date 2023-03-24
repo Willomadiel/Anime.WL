@@ -34,10 +34,11 @@
             background-color: rgb(212, 32, 47);
             position: relative;
             color: rgb(0, 0, 0);
+            display: none;
         }
         #cr:hover{
             color: rgb(224, 221, 221);
-            display: none;
+            cursor: pointer;
         }
         div > #tox:hover{
             color: black;
@@ -196,7 +197,7 @@
         h2{
             background-image: url("");
             background-position: center center; 
-            padding-right: 10px;
+            padding-right: 18px;
             background-size: 80%;
             
         }
@@ -214,4 +215,46 @@
             margin-top: 10px;
             display: inline-block;
         }
+        menu li{
+            color: aliceblue;
+            list-style-type: none;
+            background-color: rgb(212, 32, 47);
+            padding: 10px;
+            margin: 10px;
+            width: 150px;
+            font-size: 20px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        menu{
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            background-color: #212121;
+            display: none;
+        }
+        menu ul{
+            margin: 0px;
+            padding: 0px;
+        }
+        menu h2{
+            color: rgb(80, 90, 231);
+            font-size: 40px;
+            height: 70px;
+            margin-top: 30px; 
+            display: inline-block;
+            background-color: #212121;
+            text-decoration: underline;
+        }
+        menu h3{
+            color: rgb(255, 255, 255);
+            font-size: 40px;
+            margin-top: 20px; 
+            display: inline-block;
+            background-color: #212121;
+            padding-right: 50px;
+            }
+            #perfil:hover{
+                cursor: pointer;
+            }
 </style>
