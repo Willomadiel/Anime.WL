@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conta</title>
+    <title>Animes.WL: Login</title>
     <link rel="shortcut icon" href="Icons/icons8-w-key-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="Style/perfil.css">
     <style>
         body{
             background-color: rgb(44, 43, 43);
             font-family: Arial, Helvetica, sans-serif;
             margin-left: 30px;
             text-align: center;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
         }
         fieldset{
             height: 500px;
@@ -37,6 +41,7 @@
             background-color: rgb(43, 146, 230);
             font-size: 20px;
             margin-top: 50px;
+            cursor: pointer;
         }
         .s1{
             height: 45px;
@@ -47,13 +52,12 @@
             font-size: 18px;
         }
         h1 > div{
-            margin-right: 560px;
+            margin-right: 527px;
         }
         h1{
             font-family: Arial, Helvetica, sans-serif;
             margin: 0px;
-            margin-bottom: 5px;
-            margin-left: -30px;
+            margin-bottom: 1px;
             padding-right: 20px;
             text-align: start;
         }
@@ -79,7 +83,6 @@
             text-decoration: none;
             padding-top: 10px;
             padding-left: 10px;
-            margin-left: -30px;
         }
         .l1{
             font-size: 18px;
@@ -109,7 +112,6 @@
             background-image: url('Temporadas/Icons/955301.jpg');
             background-position: center top; 
             background-size: 40%;
-            margin-left: -30px;
             padding-right: 18px;
         }
         h2 img:hover{
@@ -133,31 +135,61 @@
             padding-left: 50px;
             color: rgb(0, 15, 228);
         }
+        #j7{
+            color: rgb(212, 32, 47);
+            text-decoration: none;
+            font-size: 30px;
+        }
+        #file{
+            width: 127px;
+        }
     </style>
 </head>
 <body>
-    <h1 style="line-height: normal 20pt;
+    <h1 id="br" style="line-height: normal 20pt;
         background: #0E0E0E;
-        width: 1326px;
+        width: 1330px;
+        padding-right: 18px;
         display: inline-block;">
         <div id="cr" style="font-size: 27px;
         display: inline-block;
         text-align: start;
-        width: 32px;
-        ">&#9776;</div>
-        <a href="index.html" style="color: rgb(212, 32, 47);
-        display: inline-block;
-        margin: 0px;
-        text-decoration: none;">Animes Willo</a>
-        </h1>
+        width: 32px; 
+        cursor: pointer;
+        " onclick="clickMenu()">&#9776;</div>
+        <div style="color: rgb(212, 32, 47);
+        display: inline-block;"><a id="j7" href="index.html">Animes Willo</a></div>
+        <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""></h1>
+        <menu id="itens">
+            <ul>
+                <h5>Generos</h5>
+                <li>Esporte</li>
+                <li>Aventura</li>
+                <li>Ação</li>
+                <li>Luta</li>
+                <li>Poderes</li>
+                <li>Comedia</li>
+                <li>Suspense</li>
+                <li>Drama</li>
+                <li>Culinaria</li>
+                <li>shounen</li>
+                <li>shoujo</li>
+                <li>seinen</li>
+            </ul>
+        </menu>
+        <menu id="log">
+            <li><a href="Conta.html">Login</a></li>
+            <li><a href="perfil.html">Perfil</a></li>
+            <li><a href="cadastro.html">Cadastre-se</a></li>
+        </menu>
         <div class="f3" href="download.jpg" style=" height: 26px;
-        width: 1335px;
-        font-size: 16px;
-        letter-spacing: 18px;
+        width: 1337px;
+        font-size: 14px;
+        letter-spacing: 17.6px;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #0E0E0E;
         color: rgb(255, 255, 255);
-        "> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z </div>
+        "># A B C D E F G H I J K L M N O P Q R S T U V W X Y Z #</div>
     <form action="Cadastro.py" method="post">
         <fieldset id="f1">
             <legend>Login na Conta</legend>
@@ -166,7 +198,7 @@
             <p><label for="password">Senha:</label>
                 <input type="password" name="senha" id="password" required minlength="8" maxlength="20" class="s1" placeholder="Digite sua Senha"></p>
                 <div id="to"><input type="checkbox" name="lembrar" checked id="toremember">Lembrar senha</div>
-            <p id="h4">Foto de Perfil</p>
+            <p id="h4">Foto de Perfil:</p>
                 <input type="file" name="arquivo"  id="file"> 
             <input type="submit" id="j1" value="Login">
             <a id="k6" href="cadastro.html">Não tem uma conta?(clique aqui)</a>
@@ -178,5 +210,24 @@
         <a href="https://www.instagram.com/willomadiel/" target="_blank"><img src="Imagens/icons8-instagram-64.png" alt=""></a>
         <a href="https://twitter.com/willomadiel" target="_blank"><img src="Imagens/icons8-twitter-64.png" alt=""></a>
     </h2>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block' ) {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+    <script>
+        function login(){
+            if (log.style.display == 'block') {
+                log.style.display = 'none'
+                itens.style.display = 'none'
+            } else {
+                log.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

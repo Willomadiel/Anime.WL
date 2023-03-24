@@ -75,13 +75,14 @@
         }
         #l1 a:hover{
             color: rgb(0, 0, 0);
+            cursor: pointer;
         }
         .d1 > a{
             font-size: 21px;
             font-family: Arial, Helvetica, sans-serif;
             text-decoration: none;
             color: aliceblue;
-            margin: 10px ;
+            margin: 10px;
             display: inline-block;
         }
         div a:hover{
@@ -146,45 +147,40 @@
             <p>One Piece conta as aventuras de Monkey D. Luffy, um jovem cujo corpo ganhou as propriedades de borracha após ter comido uma fruta do diabo acidentalmente. Com sua tripulação, os Piratas do Chapéu de Palha, Luffy explora a Grand Line em busca do tesouro mais procurado do mundo, o "One Piece", a fim de se tornar o próximo Rei dos Piratas.</p>
         </div>
         <div class="" id="l1">
-            <a href="a">Temporada 1</a>
-        </div>
-        <div class="d1">
-            <a href="a">Episodio 1</a>
-        </div>
-
-        <div class="d1">
-            <a href="a">Episodio 2</a>
-        </div>
-
-        <div class="d1">
-            <a href="a">Episodio 3</a>
-        </div>
-
-        <div class="d1">
-            <a href="a">Episodio 4</a>
-        </div>
+            <a onclick="clickMenu()" > Temporada 1</a></div>
+        <menu id="meni">
+            <div class="d1">
+                <a href="a">Episodio 1</a>
+            </div>
+            <div class="d1">
+                <a href="a">Episodio 2</a>
+            </div>
+            <div class="d1">
+                <a href="a">Episodio 3</a>
+            </div>
+            <div class="d1">
+                <a href="a">Episodio 4</a>
+            </div>
             
-        <div class="d1">
-            <a href="a">Episodio 5</a>
-        </div>
-        <div class="d1">
-            <a href="a">Episodio 6</a>
-        </div>
-
-        <div class="d1">
-            <a href="a">Episodio 7</a>
-        </div>
-
-        <div class="d1">
-            <a href="a">Episodio 8</a>
-        </div>
-
-        <div class="d1">
-            <a href="a">Episodio 9</a>
-        </div>
+            <div class="d1">
+                <a href="a">Episodio 5</a>
+            </div>
+            <div class="d1">
+                <a href="a">Episodio 6</a>
+            </div>
+            <div class="d1">
+                <a href="a">Episodio 7</a>
+            </div>
+            <div class="d1">
+                <a href="a">Episodio 8</a>
+            </div>
+            <div class="d1">
+                <a href="a">Episodio 9</a>
+            </div>
             
-        <div class="d1">
-            <a href="a">Episodio 10</a>
+            <div class="d1">
+                <a href="a">Episodio 10</a>
+        </menu>
     </main>
     <div class="d8">
         <p class="p8">Animes Populares</p>
@@ -204,5 +200,16 @@
         <a href="https://www.instagram.com/willomadiel/" target="_blank"><img src="Imagens/icons8-instagram-64.png" alt=""></a>
         <a href="https://twitter.com/willomadiel" target="_blank"><img src="Imagens/icons8-twitter-64.png" alt=""></a>
     </h2>
+    <script>
+        function clickMenu(){
+            if (meni.style.display == 'block' ){
+                meni.style.display = 'none'
+                h7.style.display = 'height: 900px;'
+            } else {
+                meni.style.display = 'block'
+            }
+        }
+    </script>
+    </script>
 </body>
 </html>

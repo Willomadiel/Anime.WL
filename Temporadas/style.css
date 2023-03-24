@@ -92,3 +92,7 @@ h2{
 h2 img:hover{
     transform: translate(-3px, -3px);
 }
+menu{
+    display: none;
+    padding: 0px;
+}

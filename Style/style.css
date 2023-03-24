@@ -15,7 +15,7 @@
         h1{
             font-family: Arial, Helvetica, sans-serif;
             margin-top: 0px;
-            margin-bottom: 5px;
+            margin-bottom: 1px;
             margin-right: 0px;
             padding-right: 10px;
         }
@@ -43,9 +43,6 @@
         div > #tox:hover{
             color: black;
         }
-        div > #a1:hover{
-            color: black;
-        }
         #a1{
             background-color: rgb(77, 76, 76);
             color: aliceblue;
@@ -67,7 +64,7 @@
             border-left: 6px solid rgb(212, 32, 47);
         }
         div > #a2:hover{
-            color: black;
+            color: rgb(0, 0, 0);
         }
         div > picture > img{
             margin-right: 1000px;
@@ -134,9 +131,6 @@
             margin-top: 10px;
             display: inline-block;
         }
-        .a3:hover{
-            color: black;
-        }
         .e1{
             margin-left: 110px;
         }
@@ -156,8 +150,8 @@
             margin-left: 213px;
         }
         #j1:hover{
-            text-decoration: underline black;
-            color: black;
+            text-decoration: underline;
+            color: rgba(250, 235, 33, 0.945);
         }
         .f3:hover{
             color: red;
@@ -236,6 +230,7 @@
         menu ul{
             margin: 0px;
             padding: 0px;
+            display: inline-block;
         }
         menu h2{
             color: rgb(80, 90, 231);
