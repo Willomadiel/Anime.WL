@@ -25,8 +25,12 @@
         text-align: start;
         width: 32px; 
         " onclick="clickMenu()">&#9776;</div>
-        <div style="color: rgb(212, 32, 47);
-        display: inline-block;">Animes Willo</div>
+        <a id="mx" href="index.html" style="color: rgb(212, 32, 47);
+        display: inline-block;">Animes Willo</a>
+        <div id="mg">
+            <input class="k9" type="search" placeholder="Procurar Anime" name="procura" id="procura">
+            <input type="button" class="k9" onclick="procura()" value="⨀">
+        </div>
         <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""></h1>
         <menu id="itens">
             <ul>
@@ -129,24 +133,6 @@
         <a href="https://www.instagram.com/willomadiel/" target="_blank"><img src="Imagens/icons8-instagram-64.png" alt=""></a>
         <a href="https://twitter.com/willomadiel" target="_blank"><img src="Imagens/icons8-twitter-64.png" alt=""></a>
     </h2>
-    <script>
-        function clickMenu(){
-            if (itens.style.display == 'block' ) {
-                itens.style.display = 'none'
-            } else {
-                itens.style.display = 'block'
-            }
-        }
-    </script>
-    <script>
-        function login(){
-            if (log.style.display == 'block') {
-                log.style.display = 'none'
-                itens.style.display = 'none'
-            } else {
-                log.style.display = 'block'
-            }
-        }
-    </script>
+    <script src="index.js"></script>
 </body>
 </html> 

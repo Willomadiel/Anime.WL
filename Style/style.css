@@ -206,7 +206,7 @@
         #perfil{
             width: 28px;
             border-radius: 50%;
-            margin-top: 10px;
+            
             display: inline-block;
         }
         menu li{
@@ -252,4 +252,22 @@
             #perfil:hover{
                 cursor: pointer;
             }
+        #procura{
+            width: 150px;
+            background-color: #3d3c3c;
+            display: inline-block;
+            margin: 0px;
+        }
+        #mg{
+            margin: 0px;
+            display: inline-block;
+            height: 0px;
+        }
+        #mx{
+            text-decoration: none;
+            padding-right: 326px;
+        }
+        .k9{
+           background-color: #c0bdbd;
+        }
 </style>
