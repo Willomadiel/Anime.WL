@@ -19,3 +19,5 @@ var proc = document.getElementById('procura')
 function procura(){
     proc.localName()
 } 
+let content = document.querySelector('.content');
+let inputSearch = document.querySelector("input[type='search']");

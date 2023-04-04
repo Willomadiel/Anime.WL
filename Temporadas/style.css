@@ -4,9 +4,9 @@ h1 > div{
 h1{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
     margin-right: 0px;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 #cr{
     padding-left: 8px;
@@ -26,19 +26,17 @@ h1{
 iframe{
     width: 400px;
     height: 270px;
-    
 }
 .d8{
     background-color: #0E0E0E;
     width: 400px;
     height: 740px;
-    position: absolute;
     display: inline-block;
-    margin: 1px;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-
+    position: absolute;
+    border-bottom: 1px solid #212121;
 }
 .j8{
     background-color: rgb(77, 76, 76);
@@ -51,20 +49,23 @@ iframe{
 }
 main{
     background-color: #0E0E0E;
-    width: 870px;
-    height: 980px;
-    padding: 20px;
+    width: 886px;
+    height: 700px;
+    padding: 0px;
     display: inline-block;
     margin-top: 1px;
     margin-bottom: 3px;
+    padding: 20px;
+    border-right: 1px solid #212121;
 }
 h2{
-    width: 1330px;
+    width: 1347px;
     height: 110px;
     background-color: #0E0E0E;
     text-align: center;
-    margin: 0px;
+    margin-top: 12px;
     border: 1px solid rgb(228, 84, 84);
+    margin-bottom: 0px;
 }
 h2 > p{ 
     margin: 0px;
@@ -83,6 +84,8 @@ h2 img{
     text-decoration: none;
     padding-top: 10px;
     padding-left: 10px;
+    border-top: 1px solid #212121;
+    border-bottom: 1px solid #212121;
 }
 h2{
     background-image: url('Icons/573701.jpg');
@@ -96,3 +99,182 @@ menu{
     display: none;
     padding: 0px;
 }
+
+        body{
+            background: #0E0E0E;
+            color: rgb(0, 0, 0);
+            text-align: justify;
+            background-position: right;
+            display: inline-block;
+            margin: 0px;
+        }
+        div#p1{
+            background-image: url('Img-Temp/One\ piece.jpe');
+            display: inline-block;
+}
+        div#p1{
+            display: inline-block;
+            width: 180px;
+            height: 276px;
+            background-color: black;
+        }
+        div#p2{
+            display: inline-block;
+            height: 256px;
+            width: 700px;
+            background-color: #636060;
+            position: absolute;
+            text-align: start;
+            text-indent: 20px;
+            padding-top: 20px;
+            border: 0.5px solid rgb(226, 42, 42);
+        }
+        span{
+            font-size: 30px;
+            color: aliceblue;
+        }
+        p{
+            font-size: 17px;
+        }
+        .d1{
+            width: 850px;
+            height: 40px;
+            margin: 10px 0px 0px 0px;
+            background-color: #1d1c1c;
+            padding-top: 10px;
+            border-left: 4px solid rgb(226, 42, 42);
+            border-right: 2px solid rgb(0, 0, 0);
+            border-bottom: 2px solid rgb(0, 0, 0);
+            border-top: 2px solid rgb(0, 0, 0);
+        }
+        #l1{
+            width: 850px;
+            height: 40px;
+            margin: 10px 0px 0px 0px;
+            background-color: #1d1c1c;
+            padding-top: 10px;
+            border-left: 4px solid rgb(80, 90, 231);
+            border-right: 2px solid rgb(0, 0, 0);
+            border-bottom: 2px solid rgb(0, 0, 0);
+            border-top: 2px solid rgb(0, 0, 0);
+        }
+        #l1 > a{
+            font-size: 28px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: aliceblue;
+            display: inline-block;
+            padding-left: 10px;
+        }
+        #l1 a:hover{
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+        .d1 > a{
+            font-size: 21px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: aliceblue;
+            margin: 10px;
+            display: inline-block;
+        }
+        div a:hover{
+            color: rgb(226, 42, 42);
+        }
+        .p8{
+            background-color: rgb(77, 76, 76);
+            color: aliceblue;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 280px;
+            border-radius: 10px;
+            border-left: 6px solid rgb(212, 32, 47);
+        }
+        .k1{
+            text-decoration: none;
+            color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-block;
+            max-width: 50px;
+            text-align: center;
+            margin-right: 47px;
+        }
+        h2 > p{
+            font-size: 30px;
+            text-align: center;
+            color: rgb(212, 32, 47);
+        }
+        .k1:hover{
+            color: rgba(250, 235, 33, 0.945);
+        }
+        #perfil{
+            width: 28px;
+            border-radius: 50%;
+            
+            display: inline-block;
+        }
+        menu li{
+            color: aliceblue;
+            list-style-type: none;
+            background-color: rgb(212, 32, 47);
+            padding: 10px;
+            margin: 10px;
+            width: 150px;
+            font-size: 20px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        menu{
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            background-color: #212121;
+            display: none;
+        }
+        menu ul{
+            margin: 0px;
+            padding: 0px;
+            display: inline-block;
+        }
+        menu h4{
+            color: rgb(80, 90, 231);
+            font-size: 40px;
+            height: 70px;
+            margin-top: 10px; 
+            display: block;
+            background-color: #212121;
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+        menu h3{
+            color: rgb(255, 255, 255);
+            font-size: 40px;
+            margin-top: 20px; 
+            display: inline-block;
+            background-color: #212121;
+            padding-right: 50px;
+            }
+            #perfil:hover{
+                cursor: pointer;
+            }
+        #procura{
+            width: 150px;
+            background-color: #3d3c3c;
+            display: inline-block;
+            margin: 0px;
+        }
+        #mg{
+            margin: 0px;
+            display: inline-block;
+            height: 0px;
+        }
+        #mx{
+            text-decoration: none;
+            margin-right: 326px;
+        }
+        .k9{
+           background-color: #c0bdbd;
+        }
+        .one{
+            display: none;
+        }
