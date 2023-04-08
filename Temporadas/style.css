@@ -278,3 +278,6 @@ menu{
         .one{
             display: none;
         }
+        div img:hover{
+            transform: translate(1px, 1%)
+        }

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-<style>
     body{ background-color: #212121;
         color: rgb(0, 0, 0);
         margin: auto;
@@ -23,7 +22,7 @@
             padding-top: 17px;
             padding-left: 17px;
             border-top: 10px;
-            margin-top: 2px;
+            margin-top: 1px;
         }
         #cr{
             padding-left: 8px;
@@ -80,23 +79,24 @@
             text-decoration: none;
         }
         .iprime{
-            text-align: start;
+            text-align: center;
         }
         #j1{
             color: aliceblue;
             display: inline-block;
             font-size: 17px;
+            padding-left: 10px;
+            padding-top: 0px;
+            margin-top: 0px;
         }
         .j3{
             margin-left: 116px;
             max-width: 80px;
-            margin-bottom: 10px;
     
         }
         .j4{
             margin-left: 135px;
             max-width: 80px;
-            margin-bottom: 10px;
             
         }
         .j5{
@@ -270,4 +270,31 @@
         .k9{
            background-color: #c0bdbd;
         }
-</style>
+        .i1:hover{
+            transform: translate(1px, 2%)
+        }
+        main img:hover{
+            transform: translate(1px, 3%);
+            filter: grayscale(80%);
+            transition: all 0.2s linear;
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+            text-align: center;
+            margin:auto;
+            font-family: monospace;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-right: 5px;
+            margin-left: 6px;
+        }
+        div li:hover{
+            border-bottom: solid 2px royalblue;
+            cursor: pointer;
+        }
+        ul > li:hover{
+            cursor: pointer;
+            color: rgb(0, 0, 0);
+        }
+        
