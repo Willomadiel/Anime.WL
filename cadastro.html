@@ -7,6 +7,7 @@
     <title>Animes.WL: Cadastro</title>
     <link rel="shortcut icon" href="Icons/icons8-w-key-16.png" type="image/x-icon">
     <link rel="stylesheet" href="Style/perfil.css">
+    <link rel="stylesheet" href="Style/style.css">
     <style>
          body{
             background-color: rgb(44, 43, 43);
@@ -127,17 +128,20 @@
 <body>
     <h1 id="br" style="line-height: normal 20pt;
         background: #0E0E0E;
-        width: 1330px;
-        padding-right: 18px;
+        width: 1348px;
         display: inline-block;">
         <div id="cr" style="font-size: 27px;
         display: inline-block;
         text-align: start;
         width: 32px; 
-        cursor: pointer;
         " onclick="clickMenu()">&#9776;</div>
-        <div style="color: rgb(212, 32, 47);
-        display: inline-block;"><a id="j7" href="index.html">Animes Willo</a></div>
+        <a id="mx" href="index.html" style="color: rgb(212, 32, 47);
+        display: inline-block;">Animes Willo</a>
+        <div id="mg">
+            <input class="k9" type="search" placeholder="Procurar Anime" name="procura" id="procura">
+            <input type="button" class="k9" onclick="procura()" value="⨀">
+            <div class="content"></div>
+        </div>
         <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""></h1>
         <menu id="itens">
             <ul>
@@ -162,13 +166,12 @@
             <li><a href="cadastro.html">Cadastre-se</a></li>
         </menu>
         <div class="f3" href="download.jpg" style=" height: 26px;
-        width: 1335px;
-        font-size: 16px;
-        letter-spacing: 18px;
+        width: 1338px;
+        font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #0E0E0E;
         color: rgb(255, 255, 255);
-        "> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z </div>
+        "><li>#</li> <li>A</li> <li>B</li> <li>C</li> <li>D</li> <li>E</li> <li>F</li> <li>G</li> <li>H</li> <li>I</li> <li>J</li> <li>K</li> <li>L</li> <li>M</li> <li>N</li> <li>O</li> <li>P</li> <li>Q</li> <li>R</li> <li>S</li> <li>T</li> <li>U</li> <li>V</li> <li>W</li> <li>X</li> <li>Y</li> <li>Z</li> <li>#</li></div>
     <form action="Cadastro.py" method="post">
         <fieldset>
             <legend>Cadastre-se</legend>
@@ -194,7 +197,30 @@
         <a href="https://www.instagram.com/willomadiel/" target="_blank"><img src="Imagens/icons8-instagram-64.png" alt=""></a>
         <a href="https://twitter.com/willomadiel" target="_blank"><img src="Imagens/icons8-twitter-64.png" alt=""></a>
     </h2>
-    <script src="cadastro.js">
+<script>
+    function login(){
+    if (log.style.display == 'block' || itens.style.display == 'block') {
+        itens.style.display = 'none'
+        log.style.display = 'none'
+    } else {
+        log.style.display = 'block'
+    }
+}
+function clickMenu(){
+    if (itens.style.display == 'block' || log.style.display == 'block') {
+        itens.style.display = 'none'
+        log.style.display = 'none'
+    } else {
+        itens.style.display = 'block'
+    }
+
+}
+var proc = document.getElementById('procura')
+function procura(){
+    proc.localName()
+} 
+let content = document.querySelector('.content');
+let inputSearch = document.querySelector("input[type='search']");
     </script>
 </body>
 </html>

@@ -206,8 +206,8 @@
         #perfil{
             width: 28px;
             border-radius: 50%;
-            
             display: inline-block;
+            margin: 0px;
         }
         menu li{
             color: aliceblue;
@@ -278,7 +278,7 @@
             filter: grayscale(80%);
             transition: all 0.2s linear;
         }
-        li{
+        div li{
             list-style: none;
             display: inline-block;
             text-align: center;

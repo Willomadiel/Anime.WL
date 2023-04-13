@@ -3,7 +3,6 @@
 #perfil{
     width: 28px;
     border-radius: 50%;
-    margin-top: 10px;
     display: inline-block;
 }
 menu li{
@@ -52,4 +51,7 @@ menu h3{
     }
 #itens{
     padding-top: 20px;
+}
+#br{
+    padding: 0px;
 }
