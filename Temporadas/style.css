@@ -281,7 +281,7 @@ menu{
         div img:hover{
             transform: translate(1px, 1%)
         }
-        li{
+        div > li{
             list-style: none;
             display: inline-block;
             text-align: center;
