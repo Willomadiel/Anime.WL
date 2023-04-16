@@ -225,8 +225,9 @@ menu{
             margin: 0px;
             padding: 0px;
             text-align: center;
-            background-color: #212121;
             display: none;
+            background-image: url('../Icons/84631\ \(1\).jpg');
+            background-position: center center;
         }
         menu ul{
             margin: 0px;
@@ -239,7 +240,6 @@ menu{
             height: 70px;
             margin-top: 10px; 
             display: block;
-            background-color: #212121;
             text-decoration: underline;
             margin-bottom: 10px;
         }
@@ -297,3 +297,15 @@ menu{
             cursor: pointer;
             color: rgb(0, 0, 0);
         }
+        h4{
+            color: rgb(80, 90, 231);
+            font-size: 40px;
+            margin-top: 20px; 
+            display: block;
+            text-decoration: underline;
+        }
+        #log{
+            background-image: url('../Icons/1054068.jpg');
+            background-position: center;
+        }
+        
