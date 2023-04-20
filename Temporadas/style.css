@@ -308,4 +308,10 @@ menu{
             background-image: url('../Icons/1054068.jpg');
             background-position: center;
         }
+        .d8 img:hover{
+            -webkit-transition: all .4s ease-out;
+            -moz-transition: all .4s ease-out;
+            -o-transition: all .4s ease-out;
+            transition: all .4s ease-out
+        }
         
