@@ -32,7 +32,6 @@ iframe{
     width: 400px;
     height: 740px;
     display: inline-block;
-    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
     position: absolute;
@@ -73,7 +72,7 @@ h2 > p{
 }
 h2 img{
     margin-left: 40px;
-    width: 50px;
+    width: 35px;
     border-radius: 50%;
     margin-top: 10px;
 }
@@ -174,7 +173,15 @@ menu{
             margin: 10px;
             display: inline-block;
         }
-        div a:hover{
+        div a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .d8 div a:hover{
+            color: rgba(250, 235, 33, 0.945);
+            text-decoration: underline;
+        }
+        .d1 a:hover{
             color: rgb(226, 42, 42);
         }
         .p8{
@@ -186,15 +193,6 @@ menu{
             border-radius: 10px;
             border-left: 6px solid rgb(212, 32, 47);
         }
-        .k1{
-            text-decoration: none;
-            color: aliceblue;
-            font-family: Arial, Helvetica, sans-serif;
-            display: inline-block;
-            max-width: 50px;
-            text-align: center;
-            margin-right: 47px;
-        }
         h2 > p{
             font-size: 30px;
             text-align: center;
@@ -202,6 +200,7 @@ menu{
         }
         .k1:hover{
             color: rgba(250, 235, 33, 0.945);
+            text-decoration: underline;
         }
         #perfil{
             width: 28px;
@@ -293,7 +292,7 @@ menu{
             border-bottom: solid 2px royalblue;
             cursor: pointer;
         }
-        ul > li:hover{
+        ul > li a:hover{
             cursor: pointer;
             color: rgb(0, 0, 0);
         }
@@ -313,5 +312,51 @@ menu{
             -moz-transition: all .4s ease-out;
             -o-transition: all .4s ease-out;
             transition: all .4s ease-out
+        }
+        .d1lado{
+            display: inline-block;
+            margin: 0px;
+            text-align: center;
+            padding: 8px;
+            padding-left: 20px;
+        }
+        div a img{
+            width: 100px;
+            height: 120px;
+        }
+        a > p{
+            margin: 0px;
+        }
+        #onep{
+            padding-left: 30px;
+            padding-right: 15px;
+        }
+        .anony{
+            border: solid 2px #0E0E0E;
+            width: 80px;
+            text-align: initial;
+            margin: 0px;
+            display: inline-block;
+            background-color: #3d3c3c;
+            margin-left: 10px;
+            color: rgb(64, 231, 31);
+            display: unset;
+            padding: 5px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        ul > li > a:hover{
+            color: #0E0E0E;
+        }
+        li{
+            margin: 0px;
+        }
+        ul{
+            margin: 0px;
+        }
+        #thor{
+            color: rgb(223, 10, 20);
         }
         
