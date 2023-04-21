@@ -171,7 +171,6 @@
             text-align: center;
             margin-top: 1px;
             background-image: url('../Icons/564835\ \(1\).jpg');
-            background-position: ;
             background-size: 50%;
             margin-bottom: 0px;
         }
@@ -193,22 +192,24 @@
 
         }
         #imgsolo{
-            height: 1507px;
+            height: 1796px;
             width: 173px;
             float: left;
             background-position: center;
             display: inline-block;
             background-image: url('../Icons/1093511.jpg');
             margin-top: 1px;
+            background-size: 1300px;
         }
         #imgsolo2{
-            height: 1508px;
+            height: 1796px;
             width: 173px;
             float: right;
             background-position: center center;
             display: inline-block;
             background-image: url('../Icons/332740.jpg');
             margin-top: 1px;
+            background-size: 1000px;
         }
         .search{
             position: relative;
@@ -337,7 +338,16 @@
             display: inline-block;
             text-align: center;
         }
+        .protagoxx{
+            display: inline-block;
+            text-align: center;
+        }
         .protago a:hover{
+            cursor: pointer;
+            text-decoration: underline;
+            color: rgba(250, 235, 33, 0.945);
+        }
+        .protagoxx a:hover{
             cursor: pointer;
             text-decoration: underline;
             color: rgba(250, 235, 33, 0.945);
@@ -373,5 +383,25 @@
         li{
             margin: 0px;
         }
-        
-        
+        #trax{
+            padding-top: 17px;
+            padding-left: 35px;
+            border-top: 10px;
+            height: 270px;
+            width: 987px;
+            margin-bottom: 1px;
+        }
+        #prax{
+            background-color: rgb(77, 76, 76);
+            color: aliceblue;
+            padding: 10px;
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 730px;
+            border-radius: 10px;
+            border-left: 6px solid rgb(212, 32, 47);
+        }
+        .protagoxx img{
+            width: 140px;
+            height: 160px;
+        }
