@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="Icons/icons8-w-key-16.png" type="image/x-icon">
     <title>Anime.WL</title>
     <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/cellstyle.css">
     <style> 
         body{ background-color: #212121;
             color: rgb(0, 0, 0);
@@ -17,7 +18,6 @@
 <body>
         <h1 id="br" style="line-height: normal 20pt;
         background: #0E0E0E;
-        width: 1330px;
         padding-right: 18px;
         display: inline-block;">
         <div id="cr" style="font-size: 27px;
@@ -28,11 +28,15 @@
         <a id="mx" href="index.html" style="color: rgb(212, 32, 47);
         display: inline-block;">Animes Willo</a>
         <div id="mg">
-            <input class="k9" type="search" placeholder="Procurar Anime" name="procura" id="procura">
-            <input type="button" class="k9" onclick="procura()" value="⨀">
-            <div class="content"></div>
+            <form method="get" action="alfabeto/All.html" id="searchform">
+
+                <input class="k9" type="search" maxlength="20" placeholder="Procurar Anime" name="procura" id="procura" autocomplete="off" >
+
+                <input type="button" id="procurase" value="⨀">
+            </form>
         </div>
         <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""></h1>
+        <div id="res"></div>
         <menu id="itens">
             <ul>
                 <h4>Generos</h4>
@@ -92,12 +96,10 @@
     </div>
     <div id="imgsolo"></div>
     <div id="imgsolo2"></div>
-        <main>
-        <div a href="" id="tex" style="background-color: #0E0E0E; color: aliceblue;
+        <main id="mainn">
+        <div id="tex" style="background-color: #0E0E0E; color: aliceblue;
         text-align: start;
         font-size: 25px;
-        height: 1491px;
-        width: 986px;
         display: inline-block;
         font-family: Arial, Helvetica, sans-serif;
         "><a id="a1">Top Protagonistas</a>
@@ -121,7 +123,7 @@
                 <a href="Temporadas/Temp Haikyuu.html"><img class="i1" src="Imagens/oss.jpg" alt="Anime"><br><p>Hinata</p></a>
             </div>
             
-            <a class="a3" >Tendencias</a>
+            <div id="kros"><a class="a3" id="kros">Tendencias</a></div>
             <div class="meio">
                 <a href="Temporadas/Temp One Piece.html"><img src="Imagens/e1.jpeg" alt=""><p>One Piece</p></a>
             </div>
@@ -164,7 +166,7 @@
             <div class="meio">
                 <a href="Temporadas/Temp Jujutsu Kaisen.html"><img src="Imagens/e14.jpeg" alt=""><p>Jujutsu Kaisen</p></a>
             </div>
-            <div class="meio">
+            <div class="meio" id="ultimo">
                 <a href="Temporadas/Temp Hunter x Hunter.html"><img src="Imagens/e15.jpeg" alt=""><p>Hunter x Hunter</p></a>
             </div>
         </picture></a></div>
@@ -173,9 +175,9 @@
         font-size: 25px;
         display: inline-block;
         font-family: Arial, Helvetica, sans-serif;
-        "><a id="prax">Lançamentos</a>
+        "><div id="kros"><a class="a3">Lançamentos</a></div>
         <a class="image" href="Brabo"><picture>
-            <div class="protago">
+            <div class="protagoxx">
                 <a href="Temporadas/Temp Demon Slayer.html"><img class="i1" src="imgpesquisa/demon slayer.jpeg" alt="Anime"><br><p>Demon Slayer</p></a>
             </div>
             <div class="protagoxx">
@@ -187,10 +189,10 @@
             <div class="protagoxx">
                 <a href="Temporadas/Temp Boku no Hero.html"><img class="i1" src="imgpesquisa/boku no hero.jpeg" alt="Anime"><br><p>Boku no Hero</p></a>
             </div>
-            <div class="protagoxx">
+            <div class="protagoxx" id="caiu1">
                 <a href="Temporadas/Temp Blue Lock.html"><img class="i1" src="imgpesquisa/Blue lock.jpg" alt="Anime"><br><p>Blue Lock</p></a>
             </div>
-            <div class="protagoxx">
+            <div class="protagoxx" id="caiu2">
                 <a href="Temporadas/Temp Dragon Ball.html"><img class="i1" src="imgpesquisa/DBZ Super.jpeg" alt="Anime"><br><p>Dragon Ball Super</p></a>
             </div>
     </main>

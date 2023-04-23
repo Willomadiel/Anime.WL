@@ -20,9 +20,10 @@
         }
         #tex{
             padding-top: 17px;
-            padding-left: 35px;
             border-top: 10px;
             margin-top: 1px;
+            padding: 10px;
+            padding-left: 23px;
         }
         #cr{
             padding-left: 8px;
@@ -192,7 +193,7 @@
 
         }
         #imgsolo{
-            height: 1796px;
+            height: 1794px;
             width: 173px;
             float: left;
             background-position: center;
@@ -202,8 +203,8 @@
             background-size: 1300px;
         }
         #imgsolo2{
-            height: 1796px;
-            width: 173px;
+            height: 1794px;
+            width: 176px;
             float: right;
             background-position: center center;
             display: inline-block;
@@ -384,12 +385,9 @@
             margin: 0px;
         }
         #trax{
-            padding-top: 17px;
-            padding-left: 35px;
+            padding: 10px;  
             border-top: 10px;
-            height: 270px;
-            width: 987px;
-            margin-bottom: 1px;
+            padding-left: 23px;
         }
         #prax{
             background-color: rgb(77, 76, 76);

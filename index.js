@@ -13,11 +13,16 @@ function clickMenu(){
     } else {
         itens.style.display = 'block'
     }
-
 }
-var proc = document.getElementById('procura')
-function procura(){
-    proc.localName()
+var lista = []
+function procuras(){
+    var procura = document.getElementById('procura')
+    var valor = procura.value
+    if (valor == "" || isNaN(valor) == false){
+        window.location.href='Erro.html'
+        return;
+    }
+document.getElementById('res').textContent = valor
 } 
-let content = document.querySelector('.content');
-let inputSearch = document.querySelector("input[type='search']");
+var procurase = document.getElementById('procurase')
+procurase.addEventListener('click', procuras)
