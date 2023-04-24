@@ -100,20 +100,20 @@ menu{
 }
 
         body{
-            background: #0E0E0E;
+            background: #bbb9b9;
             color: rgb(0, 0, 0);
             text-align: justify;
             background-position: right;
             display: inline-block;
             margin: 0px;
         }
-        div#p1{
+        #p1{
             display: inline-block;
             width: 180px;
             height: 276px;
             background-color: black;
         }
-        div#p2{
+        #p2{
             display: inline-block;
             height: 256px;
             width: 700px;

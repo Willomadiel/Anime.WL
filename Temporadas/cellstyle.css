@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@media screen and (min-width: 100px) and (max-width: 910px){
+    #d0{
+        display: none;
+    }
+    #cr{
+        margin: 0px;
+    }
+    h2{
+        width: 100%;
+    }
+    #p2{
+        width: 100%;
+    }
+    .p1 #text{
+        display: none;
+    }
+    #ain{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #ainnn{
+        width: 100%;
+        margin: 0px;
+    }
+    a #mx{
+        margin: 0px;
+    }
+    #br{
+        width: 100%;
+    }
+    main #p2{
+        width: 100%;
+    }
+    div .anony{
+        display: block;
+        margin: 0px;
+    }
+}

@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width: 100px) and (max-width: 910px){
-    
+@media screen and (min-width: 100px) and (max-width: 910px){ 
     .meio{
         display: inline-block;
         text-align: center;
