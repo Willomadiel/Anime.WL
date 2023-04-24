@@ -8,6 +8,7 @@
     <title>Anime.WL</title>
     <link rel="stylesheet" href="Style/style.css">
     <link rel="stylesheet" href="Style/cellstyle.css">
+    <link rel="stylesheet" href="Style/cell2style.css">
     <style> 
         body{ background-color: #212121;
             color: rgb(0, 0, 0);
@@ -18,7 +19,6 @@
 <body>
         <h1 id="br" style="line-height: normal 20pt;
         background: #0E0E0E;
-        padding-right: 18px;
         display: inline-block;">
         <div id="cr" style="font-size: 27px;
         display: inline-block;
@@ -33,9 +33,9 @@
                 <input class="k9" type="search" maxlength="20" placeholder="Procurar Anime" name="procura" id="procura" autocomplete="off" >
 
                 <input type="button" id="procurase" value="⨀">
+                <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt="">
             </form>
-        </div>
-        <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""></h1>
+        </div></h1>
         <div id="res"></div>
         <menu id="itens">
             <ul>
@@ -60,7 +60,6 @@
             <li><a href="cadastro.html">Cadastre-se</a></li>
         </menu>
         <div class="f3" href="download.jpg" style=" height: 26px;
-        width: 1337px;
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #0E0E0E;
@@ -94,15 +93,15 @@
         <li><a href="alfabeto/Letra-Z.html">Z</a></li>
         <li><a href="alfabeto/All.html">#</a></li>
     </div>
-    <div id="imgsolo"></div>
-    <div id="imgsolo2"></div>
         <main id="mainn">
         <div id="tex" style="background-color: #0E0E0E; color: aliceblue;
         text-align: start;
         font-size: 25px;
         display: inline-block;
         font-family: Arial, Helvetica, sans-serif;
-        "><a id="a1">Top Protagonistas</a>
+        "><div id="kros">
+            <a class="a3" id="a3">Top Protagonistas</a>
+        </div>
         <a class="image" href="Brabo"><picture>
             <div class="protago">
                 <a href="Temporadas/Temp One Piece.html"><img class="i1" src="Imagens/download.jpg" alt="Anime"><br><p>Luffy</p></a>

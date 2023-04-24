@@ -1,31 +1,20 @@
 @charset "UTF-8";
-@media screen and (min-width: 100px) and (max-width: 768px){
-    #imgsolo{
-        display: none;
-    }
-    #imgsolo2{
-        display: none;
-    }
-    .protago{
-        display: none;
-    }
+@media screen and (min-width: 100px) and (max-width: 910px){
+    
     .meio{
         display: inline-block;
         text-align: center;
-        
     }
     .meio img{
         margin-right: 0px;
-        padding-left: 18px;
+        padding-left: 10px;
+        width: 282px;
     }
     h2{
         width: 100%;
     }
-    #a1{
-        display: none;
-    }
     .a3{
-        padding-right: 440px;
+        padding-right: 40%;
     }
     main{
         width: 100%;
@@ -43,6 +32,7 @@
     #br{
         width: 100%;
         margin: 0px;
+        padding-right: 0px;
     }
     .f3{
         display: none;
@@ -52,26 +42,17 @@
     }
     #mx{
         margin: 0px;
-        width: ;
-        
     }
     #prax{
-        padding-right: 430px;
+        padding-right: 80%;
     }
-    #caiu1{
-        display: none;
-    }
-    #caiu2{
-        display: none;
-    }
-    #ultimo{
-        display: none;
-    }
+   
     #kros{
         padding-left: 13px;
     }
     .protagoxx img{
         margin-right: 0px;
         padding-left: 16px;
+        width: 125px;
     }
 }

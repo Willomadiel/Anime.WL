@@ -4,6 +4,7 @@
     width: 28px;
     border-radius: 50%;
     display: inline-block;
+    float: inline-end;
 }
 menu li{
     color: aliceblue;

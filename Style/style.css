@@ -1,405 +1,382 @@
 @charset "UTF-8";
     body{ background-color: #212121;
         color: rgb(0, 0, 0);
-        margin: auto;
+        text-align: center;
     }    
+    #br{
+        padding: 0px;
+        width: 100%;
+    }
     main{
-        max-width: 1000px;
-        min-width: 300px;
+        max-width: 988px;
+        min-width: 100px;
         display: inline-block;
-        }
-        h1 > div{
-            margin-right: 520px;
-        }
-        h1{
-            font-family: Arial, Helvetica, sans-serif;
-            margin-top: 0px;
-            margin-bottom: 1px;
-            margin-right: 0px;
-            padding-right: 10px;
-        }
-        #tex{
-            padding-top: 17px;
-            border-top: 10px;
-            margin-top: 1px;
-            padding: 10px;
-            padding-left: 23px;
-        }
-        #cr{
-            padding-left: 8px;
-            border: rgb(116, 3, 3);
-            border-width: 1px;
-            border-style: solid;
-            text-align: start;
-            background-color: rgb(212, 32, 47);
-            position: relative;
-            color: rgb(0, 0, 0);
-            display: none;
-        }
-        #cr:hover{
-            color: rgb(224, 221, 221);
-            cursor: pointer;
-        }
-        div > #tox:hover{
-            color: black;
-        }
-        #a1{
-            background-color: rgb(77, 76, 76);
-            color: aliceblue;
-            padding: 10px;
-            text-decoration: none;
-            padding-left: 10px;
-            padding-right: 680px;
-            border-radius: 10px;
-            border-left: 6px solid rgb(212, 32, 47);
-        }
-        #a2{
-            background-color: rgb(77, 76, 76);
-            color: aliceblue;
-            padding: 10px;
-            text-decoration: none;
-            padding-left: 10px;
-            padding-right: 60px;
-            border-radius: 10px;
-            border-left: 6px solid rgb(212, 32, 47);
-        }
-        div > #a2:hover{
-            color: rgb(0, 0, 0);
-        }
-        div > picture > img{
-            margin-right: 1000px;
-            padding-bottom: 10px;
-            padding-top: 20px;
-        }
-        div img{
-            margin-top: 30px;
-            margin-right: 15px;
-            text-decoration: none;
-        }
-        div a{
-            text-decoration: none;
-        }
-        .iprime{
-            text-align: center;
-        }
-        #j1{
-            color: aliceblue;
-            display: inline-block;
-            font-size: 17px;
-            padding-left: 10px;
-            padding-top: 0px;
-            margin-top: 0px;
-        }
-        .j3{
-            margin-left: 116px;
-            max-width: 80px;
-    
-        }
-        .j4{
-            margin-left: 135px;
-            max-width: 80px;
-            
-        }
-        .j5{
-            margin-left: 120px;
-            max-width: 120px;
-            margin-bottom: 10px;
-            
-        }
-        .j6{
-            margin-left: 103px;
-            max-width: 80px;
-    
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        margin-bottom: 1px;
+        margin-right: 0px;
+        padding-right: 10px;
+    }
+    #tex{
+        padding-top: 17px;
+        padding-left: 23px;
+        margin-top: 1px;
+    }
+    #cr{
+        padding-left: 8px;
+        border: rgb(116, 3, 3);
+        border-width: 1px;
+        border-style: solid;
+        background-color: rgb(212, 32, 47);
+        color: rgb(0, 0, 0);
+        display: none;
+        float: left;
+    }
+    #cr:hover{
+        color: rgb(224, 221, 221);
+        cursor: pointer;
+    }
+    div > #tox:hover{
+        color: black;
+    }
+    #a1{
+        background-color: rgb(77, 76, 76);
+        color: aliceblue;
+        padding: 10px;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 680px;
+        border-radius: 10px;
+        border-left: 6px solid rgb(212, 32, 47);
+    }
+    #a2{
+        background-color: rgb(77, 76, 76);
+        color: aliceblue;
+        padding: 10px;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 60px;
+        border-radius: 10px;
+        border-left: 6px solid rgb(212, 32, 47);
+    }
+    div > #a2:hover{
+        color: rgb(0, 0, 0);
+    }
+    div > picture > img{
+        margin-right: 1000px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    div img{
+        margin-top: 30px;
+        margin-right: 15px;
+        text-decoration: none;
+    }
+    div a{
+        text-decoration: none;
+    }
+    .iprime{
+        text-align: center;
+    }
+    #j1{
+        color: aliceblue;
+        display: inline-block;
+        font-size: 17px;
+        padding-left: 10px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .j3{
+        margin-left: 116px;
+        max-width: 80px;
 
-        }
-        .j7{
-            margin-left: 110px;
-            max-width: 80px;
-        }
-        .i2{
-            margin-left: 180px;
-            padding-right: 150px;
-        }
-        .a3{
-            background-color: rgb(77, 76, 76);
-            color: aliceblue;
-            padding: 10px;
-            text-decoration: none;
-            padding-left: 10px;
-            padding-right: 680px;
-            border-radius: 10px;
-            border-left: 6px solid rgb(212, 32, 47);
-            margin-top: 10px;
-            display: inline-block;
-        }
-        .e1{
-            margin-left: 110px;
-        }
-        .e2{
-            margin-left: 229px;
-        }
-        .e3{
-            margin-left: 213px;
-        }
-        .e4{
-            margin-left: 83px;
-        }
-        .e5{
-            margin-left: 183px;
-        }
-        .e6{
-            margin-left: 213px;
-        }
-        div #j1:hover{
-            text-decoration: underline;
-            color: rgba(250, 235, 33, 0.945);
-        }
-        .f3:hover{
-            color: red;
-        }
-        .f3{
-            text-decoration: none;
-            padding-top: 10px;
-            padding-left: 10px;
-        }
-        #cr:hover{
-            text-align: end;
-        }
-        h2{
-            width: 1347px;
-            height: 110px;
-            background-color: #0E0E0E;
-            text-align: center;
-            margin-top: 1px;
-            background-image: url('../Icons/564835\ \(1\).jpg');
-            background-size: 50%;
-            margin-bottom: 0px;
-        }
-        h2 > p{ 
-            margin: 0px;
-            margin-left: 30px;
-            color: rgb(212, 32, 47);
-        }
-        h2 img{
-            margin-left: 40px;
-            width: 35px;
-            border-radius: 50%;
-            margin-top: 10px;
-        }
-        .f3{
-            text-decoration: none;
-            padding-top: 10px;
-            padding-left: 10px;
+    }
+    .j4{
+        margin-left: 135px;
+        max-width: 80px;
+        
+    }
+    .j5{
+        margin-left: 120px;
+        max-width: 120px;
+        margin-bottom: 10px;
+        
+    }
+    .j6{
+        margin-left: 103px;
+        max-width: 80px;
 
-        }
-        #imgsolo{
-            height: 1794px;
-            width: 173px;
-            float: left;
-            background-position: center;
-            display: inline-block;
-            background-image: url('../Icons/1093511.jpg');
-            margin-top: 1px;
-            background-size: 1300px;
-        }
-        #imgsolo2{
-            height: 1794px;
-            width: 176px;
-            float: right;
-            background-position: center center;
-            display: inline-block;
-            background-image: url('../Icons/332740.jpg');
-            margin-top: 1px;
-            background-size: 1000px;
-        }
-        .search{
-            position: relative;
-            display: inline-block;
-            color: grey;
-        }
-        h2 img:hover{
-            transform: translate(-3px, -3px);
-        }
-        #perfil{
-            width: 28px;
-            border-radius: 50%;
-            display: inline-block;
-            margin: 0px;
-        }
-        menu li{
-            color: aliceblue;
-            list-style-type: none;
-            background-color: rgb(212, 32, 47);
-            padding: 10px;
-            margin: 10px;
-            width: 150px;
-            font-size: 20px;
-            display: inline-block;
-            margin-bottom: 20px;
-        }
-        menu{
-            margin: 0px;
-            padding: 0px;
-            text-align: center;
-            background-color: #212121;
-            display: none;
-            background-image: url('../Icons/84631\ \(1\).jpg');
-            background-position: center center;
-        }
-        menu ul{
-            margin: 0px;
-            padding: 0px;
-            display: inline-block;
-        }
-        menu h2{
-            color: rgb(80, 90, 231);
-            font-size: 40px;
-            height: 70px;
-            margin-top: 30px; 
-            display: inline-block;
-            background-color: #212121;
-            text-decoration: underline;
-        }
-        menu h3{
-            color: rgb(255, 255, 255);
-            font-size: 40px;
-            margin-top: 20px; 
-            display: inline-block;
-            background-color: #212121;
-            padding-right: 50px;
-            }
-            #perfil:hover{
-                cursor: pointer;
-            }
-        #procura{
-            width: 150px;
-            background-color: #3d3c3c;
-            display: inline-block;
-            margin: 0px;
-        }
-        #mg{
-            margin: 0px;
-            display: inline-block;
-            height: 0px;
-        }
-        #mx{
-            text-decoration: none;
-            margin-right: 326px;
-        }
-        .k9{
-           background-color: #c0bdbd;
-        }
-        .i1:hover{
-            transform: translate(1px, 2%)
-        }
-        main img:hover{
-            transform: translate(1px, 3%);
-            opacity: .63;
-            transition: all 0.2s linear;
-        }
-        div li{
-            list-style: none;
-            display: inline-block;
-            text-align: center;
-            margin:auto;
-            font-family: monospace;
-            padding-right: 10px;
-            padding-left: 10px;
-            margin-right: 5px;
-            margin-left: 6px;
-        }
-        div li:hover{
-            border-bottom: solid 2px royalblue;
-            cursor: pointer;
-        }
-        menu h4{
-            color: rgb(80, 90, 231);
-            font-size: 40px;
-            margin-top: 20px; 
-            display: block;
-            text-decoration: underline;
-        }
-        #log{
-            background-image: url('../Icons/1054068.jpg');
-            background-position: center;
-        }
-        div > li > a{
-            color: aliceblue;
-        }
-        ul > li > a{
-            color: aliceblue;
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        ul > li > a:hover{
-            cursor: pointer;
-            color: rgb(0, 0, 0);
-        }
-        .protago{
-            display: inline-block;
-            text-align: center;
-        }
-        .protagoxx{
-            display: inline-block;
-            text-align: center;
-        }
-        .protago a:hover{
-            cursor: pointer;
-            text-decoration: underline;
-            color: rgba(250, 235, 33, 0.945);
-        }
-        .protagoxx a:hover{
-            cursor: pointer;
-            text-decoration: underline;
-            color: rgba(250, 235, 33, 0.945);
-        }
-        div p{
-            margin: 0px;
-            font-size: 18px;
-        }
-        .meio{
-            display: inline-block;
-            text-align: center;
-            text-decoration: none;
-        }
-        .meio a:hover{
-            cursor: pointer;
-            text-decoration: underline;
-            color: rgba(250, 235, 33, 0.945);
-        }
-        .meio p:hover{
-            color: rgba(250, 235, 33, 0.945);
-        }
-        div a{
-            color: aliceblue;
-        }
-        .meio img{
-            width: 300px;
-            height: 180px;
-        }
-        .protago img{
-            width: 140px;
-            height: 140px;
-        }
-        li{
-            margin: 0px;
-        }
-        #trax{
-            padding: 10px;  
-            border-top: 10px;
-            padding-left: 23px;
-        }
-        #prax{
-            background-color: rgb(77, 76, 76);
-            color: aliceblue;
-            padding: 10px;
-            text-decoration: none;
-            padding-left: 10px;
-            padding-right: 730px;
-            border-radius: 10px;
-            border-left: 6px solid rgb(212, 32, 47);
-        }
-        .protagoxx img{
-            width: 140px;
-            height: 160px;
-        }
+
+    }
+    .j7{
+        margin-left: 110px;
+        max-width: 80px;
+    }
+    .i2{
+        margin-left: 180px;
+        padding-right: 150px;
+    }
+    .a3{
+        background-color: rgb(77, 76, 76);
+        color: aliceblue;
+        padding: 10px;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 680px;
+        border-radius: 10px;
+        border-left: 6px solid rgb(212, 32, 47);
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .e1{
+        margin-left: 110px;
+    }
+    .e2{
+        margin-left: 229px;
+    }
+    .e3{
+        margin-left: 213px;
+    }
+    .e4{
+        margin-left: 83px;
+    }
+    .e5{
+        margin-left: 183px;
+    }
+    .e6{
+        margin-left: 213px;
+    }
+    div #j1:hover{
+        text-decoration: underline;
+        color: rgba(250, 235, 33, 0.945);
+    }
+    .f3:hover{
+        color: red;
+    }
+    .f3{
+        text-decoration: none;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    #cr:hover{
+        text-align: end;
+    }
+    h2{
+        width: 100%;
+        height: 110px;
+        background-color: #0E0E0E;
+        text-align: center;
+        margin-top: 1px;
+        background-image: url('../Icons/564835\ \(1\).jpg');
+        background-size: 50%;
+        margin-bottom: 0px;
+    }
+    h2 > p{ 
+        margin: 0px;
+        margin-left: 30px;
+        color: rgb(212, 32, 47);
+    }
+    h2 img{
+        margin-left: 40px;
+        width: 35px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    .f3{
+        text-decoration: none;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .search{
+        position: relative;
+        display: inline-block;
+        color: grey;
+    }
+    h2 img:hover{
+        transform: translate(-3px, -3px);
+    }
+    #perfil{
+        width: 28px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0px;
+    }
+    menu li{
+        color: aliceblue;
+        list-style-type: none;
+        background-color: rgb(212, 32, 47);
+        padding: 10px;
+        margin: 10px;
+        width: 150px;
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    menu{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        background-color: #212121;
+        display: none;
+        background-image: url('../Icons/84631\ \(1\).jpg');
+        background-position: center center;
+    }
+    menu ul{
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+    }
+    menu h2{
+        color: rgb(80, 90, 231);
+        font-size: 40px;
+        height: 70px;
+        margin-top: 30px; 
+        display: inline-block;
+        background-color: #212121;
+        text-decoration: underline;
+    }
+    menu h3{
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        margin-top: 20px; 
+        display: inline-block;
+        background-color: #212121;
+        padding-right: 50px;
+    }
+    #perfil:hover{
+        cursor: pointer;
+    }
+    #procura{
+        width: 150px;
+        background-color: #3d3c3c;
+        display: inline-block;
+        margin: 0px;
+    }
+    #mg{
+        display: inline-block;
+        float: right;
+    }
+    #mx{
+        text-decoration: none;
+        
+    }
+    .k9{
+        background-color: #c0bdbd;
+    }
+    .i1:hover{
+        transform: translate(1px, 2%)
+    }
+    main img:hover{
+        transform: translate(1px, 3%);
+        opacity: .63;
+        transition: all 0.2s linear;
+    }
+    div li{
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+        margin:auto;
+        font-family: monospace;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: 5px;
+        margin-left: 6px;
+    }
+    div li:hover{
+        border-bottom: solid 2px royalblue;
+        cursor: pointer;
+    }
+    menu h4{
+        color: rgb(80, 90, 231);
+        font-size: 40px;
+        margin-top: 20px; 
+        display: block;
+        text-decoration: underline;
+    }
+    #log{
+        background-image: url('../Icons/1054068.jpg');
+        background-position: center;
+    }
+    div > li > a{
+        color: aliceblue;
+    }
+    ul > li > a{
+        color: aliceblue;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    ul > li > a:hover{
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+    }
+    .protago{
+        display: inline-block;
+        text-align: center;
+    }
+    .protagoxx{
+        display: inline-block;
+        text-align: center;
+    }
+    .protago a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: rgba(250, 235, 33, 0.945);
+    }
+    .protagoxx a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: rgba(250, 235, 33, 0.945);
+    }
+    div p{
+        margin: 0px;
+        font-size: 18px;
+    }
+    .meio{
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+    }
+    .meio a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        color: rgba(250, 235, 33, 0.945);
+    }
+    .meio p:hover{
+        color: rgba(250, 235, 33, 0.945);
+    }
+    div a{
+        color: aliceblue;
+    }
+    .meio img{
+        width: 300px;
+        height: 180px;
+    }
+    .protago img{
+        width: 140px;
+        height: 140px;
+    }
+    li{
+        margin: 0px;
+    }
+    #trax{ 
+        padding-left: 23px;
+    }
+    #prax{
+        background-color: rgb(77, 76, 76);
+        color: aliceblue;
+        padding: 10px;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 730px;
+        border-radius: 10px;
+        border-left: 6px solid rgb(212, 32, 47);
+    }
+    .protagoxx img{
+        width: 140px;
+        height: 160px;
+    }
+    #searchform{
+        text-align: end;
+    }
