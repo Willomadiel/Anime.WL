@@ -380,3 +380,6 @@
     #searchform{
         text-align: end;
     }
+    #mg{
+        float: initial;
+    }
