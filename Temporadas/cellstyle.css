@@ -26,6 +26,7 @@
     }
     main #p2{
         width: 45%;
+        text-align: justify;
     }
     .f3{
         display: none;
@@ -42,7 +43,8 @@
         max-width: 96%;
     }
     div .anony{
-        display: none;
+        text-align: justify;
+       display: inline-block;
     }
     #br #mx{
         padding: 0px;
