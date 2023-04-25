@@ -44,9 +44,12 @@
     }
     div .anony{
         text-align: center;
-       display: inline-block;
+       display: block;
     }
     #br #mx{
         padding: 0px;
+    }
+    div #l1{
+        margin-right: 0px;
     }
 }
