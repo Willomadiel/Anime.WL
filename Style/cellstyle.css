@@ -41,6 +41,7 @@
     }
     #mx{
         margin: 0px;
+        padding: 0px;
     }
     #prax{
         padding-right: 80%;
@@ -53,7 +54,6 @@
         margin-right: 0px;
         padding-left: 16px;
         width: 125px;
-
     }
     #caiu3{
         display: none;
