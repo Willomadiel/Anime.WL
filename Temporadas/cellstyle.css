@@ -6,9 +6,6 @@
     #cr{
         margin: 0px;
     }
-    h2{
-        width: 100%;
-    }
     #p2{
         width: 100%;
     }
@@ -46,5 +43,8 @@
     }
     div .anony{
         display: none;
+    }
+    #br #mx{
+        padding: 0px;
     }
 }

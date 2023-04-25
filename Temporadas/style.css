@@ -1,5 +1,6 @@
-h1 > div{
-    margin-right: 520px;
+#mx{
+    padding-left: 460px;
+    padding-right: 410px;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -258,9 +259,8 @@ menu{
             margin: 0px;
         }
         #mg{
-            margin: 0px;
-            display: inline-block;
-            height: 0px;
+            float: right;
+            display:  inline-block;
         }
         #mx{
             text-decoration: none;
