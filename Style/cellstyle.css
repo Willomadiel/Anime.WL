@@ -53,5 +53,15 @@
         margin-right: 0px;
         padding-left: 16px;
         width: 125px;
+
+    }
+    #caiu3{
+        display: none;
+    }
+    #caiu4{
+        display: none;
+    }
+    #genio{
+        padding-left: 15px;
     }
 }
