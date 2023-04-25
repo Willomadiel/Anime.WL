@@ -24,17 +24,27 @@
         width: 100%;
         margin: 0px;
     }
-    a #mx{
-        margin: 0px;
-    }
     #br{
         width: 100%;
     }
     main #p2{
+        width: 65%;
+    }
+    .f3{
+        display: none;
+    }
+    div > #l1{
+        width: 100%;
+        max-width: 98%;
+    }
+    body{
         width: 100%;
     }
+    div > .d1{
+        width: 100%;
+        max-width: 96%;
+    }
     div .anony{
-        display: block;
-        margin: 0px;
+        display: none;
     }
 }

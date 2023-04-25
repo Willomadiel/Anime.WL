@@ -58,12 +58,11 @@ main{
     border-right: 1px solid #212121;
 }
 h2{
-    width: 1347px;
+    width: 1348px;
     height: 110px;
     background-color: #0E0E0E;
     text-align: center;
     margin-top: 12px;
-    border: 1px solid rgb(228, 84, 84);
     margin-bottom: 0px;
 }
 h2 > p{ 
@@ -100,7 +99,7 @@ menu{
 }
 
         body{
-            background: #bbb9b9;
+            background-color: #0E0E0E;
             color: rgb(0, 0, 0);
             text-align: justify;
             background-position: right;
@@ -122,7 +121,6 @@ menu{
             text-align: start;
             text-indent: 20px;
             padding-top: 20px;
-            border: 0.5px solid rgb(226, 42, 42);
         }
         span{
             font-size: 30px;
@@ -266,7 +264,6 @@ menu{
         }
         #mx{
             text-decoration: none;
-            margin-right: 326px;
         }
         .k9{
            background-color: #c0bdbd;
