@@ -5,6 +5,7 @@
     }
     #cr{
         margin: 0px;
+        float: left;
     }
     #p2{
         width: 100%;
@@ -23,6 +24,7 @@
     }
     #br{
         width: 100%;
+        text-align: center;
     }
     main #p2{
         width: 40%;
@@ -48,6 +50,8 @@
     }
     #br #mx{
         padding: 0px;
+        text-align: center;
+        
     }
     div #l1{
         margin-right: 0px;
