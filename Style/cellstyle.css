@@ -42,6 +42,7 @@
     #mx{
         margin: 0px;
         padding: 0px;
+        float: initial;
     }
     #prax{
         padding-right: 80%;
