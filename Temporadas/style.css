@@ -112,6 +112,7 @@ menu{
             width: 180px;
             height: 276px;
             background-color: black;
+            text-align: center;
         }
         #p2{
             display: inline-block;
@@ -120,7 +121,7 @@ menu{
             background-color: #636060;
             position: absolute;
             text-align: start;
-            text-indent: 20px;
+            text-indent: 10px;
             padding-top: 20px;
         }
         span{
