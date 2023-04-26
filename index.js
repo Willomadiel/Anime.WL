@@ -26,3 +26,23 @@ document.getElementById('res').textContent = valor
 } 
 var procurase = document.getElementById('procurase')
 procurase.addEventListener('click', procuras)
+function procurando(){
+    if (canalha.style.display == 'block'){
+        canalha.style.display = 'none'
+    }else{
+        canalha.style.display = 'block'
+    }
+}
+var procura = document.getElementById('procura')
+procura.addEventListener('click', procurando)
+
+function buscar(){
+    var canalha = document.getElementById('canalha')
+    if (canalha.style.display == 'block'){
+        canalha.style.display = 'none'
+    }else{
+        canalha.style.display = 'block'
+    }
+}
+var cana = document.getElementsByClassName('li')
+cana.addEventListener('click', buscar)
