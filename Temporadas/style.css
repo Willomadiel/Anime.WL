@@ -65,6 +65,7 @@ h2{
     text-align: center;
     margin-top: 12px;
     margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2 > p{ 
     margin: 0px;
@@ -371,6 +372,7 @@ ul{
     font-family: Arial, Helvetica, sans-serif;
     border: #636060 1px solid;
     width: 98%;
+    margin-bottom: 20px;
 }
 #grad{
     width: 60%;
@@ -413,11 +415,12 @@ ul{
     margin-top: 25px;
 }
 #master{
-    width: 90%;
+    width: 98%;
     border: #3b3a3a solid 1px;
     margin-bottom: 20px;
     margin-top: 25px;
     padding-bottom: 10px;
+    
 }
 #cant{
     margin-left: 20px;

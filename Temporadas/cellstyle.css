@@ -21,6 +21,7 @@
     #ainnn{
         width: 100%;
         margin: 0px;
+        font-size: 18px;
     }
     #br{
         width: 100%;
@@ -65,10 +66,7 @@
     #caiu2{
         display: none;
     }
-    #master{
-        width: 100%;
-    }
     .k9{
-        padding-top: 1px;
+        padding-top: 3px;
     }
 }
