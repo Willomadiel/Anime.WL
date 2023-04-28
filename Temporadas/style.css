@@ -99,261 +99,308 @@ menu{
     padding: 0px;
 }
 
-        body{
-            background-color: #0E0E0E;
-            color: rgb(0, 0, 0);
-            text-align: justify;
-            background-position: right;
-            display: inline-block;
-            margin: 0px;
-        }
-        #p1{
-            display: inline-block;
-            width: 180px;
-            height: 276px;
-            background-color: black;
-        }
-        #p2{
-            display: inline-block;
-            height: 256px;
-            width: 700px;
-            background-color: #636060;
-            position: absolute;
-            text-align: start;
-            text-indent: 10px;
-            padding-top: 20px;
-        }
-        span{
-            font-size: 30px;
-            color: aliceblue;
-        }
-        p{
-            font-size: 17px;
-        }
-        .d1{
-            width: 850px;
-            height: 40px;
-            margin: 10px 0px 0px 0px;
-            background-color: #1d1c1c;
-            padding-top: 10px;
-            border-left: 4px solid rgb(226, 42, 42);
-            border-right: 2px solid rgb(0, 0, 0);
-            border-bottom: 2px solid rgb(0, 0, 0);
-            border-top: 2px solid rgb(0, 0, 0);
-        }
-        #l1{
-            width: 850px;
-            height: 40px;
-            margin: 10px 0px 0px 0px;
-            background-color: #1d1c1c;
-            padding-top: 10px;
-            border-left: 4px solid rgb(80, 90, 231);
-            border-right: 2px solid rgb(0, 0, 0);
-            border-bottom: 2px solid rgb(0, 0, 0);
-            border-top: 2px solid rgb(0, 0, 0);
-        }
-        #l1 > a{
-            font-size: 28px;
-            font-family: Arial, Helvetica, sans-serif;
-            text-decoration: none;
-            color: aliceblue;
-            display: inline-block;
-            padding-left: 10px;
-        }
-        #l1 a:hover{
-            color: rgb(218, 221, 22);
-            cursor: pointer;
-        }
-        .d1 > a{
-            font-size: 21px;
-            font-family: Arial, Helvetica, sans-serif;
-            text-decoration: none;
-            color: aliceblue;
-            margin: 10px;
-            display: inline-block;
-        }
-        div a{
-            text-decoration: none;
-            color: aliceblue;
-        }
-        .d8 div a:hover{
-            color: rgba(250, 235, 33, 0.945);
-            text-decoration: underline;
-        }
-        .d1 a:hover{
-            color: rgb(226, 42, 42);
-        }
-        .p8{
-            background-color: rgb(77, 76, 76);
-            color: aliceblue;
-            padding: 10px;
-            font-family: Arial, Helvetica, sans-serif;
-            width: 280px;
-            border-radius: 10px;
-            border-left: 6px solid rgb(212, 32, 47);
-        }
-        h2 > p{
-            font-size: 30px;
-            text-align: center;
-            color: rgb(212, 32, 47);
-        }
-        .k1:hover{
-            color: rgba(250, 235, 33, 0.945);
-            text-decoration: underline;
-        }
-        #perfil{
-            width: 28px;
-            border-radius: 50%;
-            
-            display: inline-block;
-        }
-        menu li{
-            color: aliceblue;
-            list-style-type: none;
-            background-color: rgb(212, 32, 47);
-            padding: 10px;
-            margin: 10px;
-            width: 150px;
-            font-size: 20px;
-            display: inline-block;
-            margin-bottom: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        menu{
-            margin: 0px;
-            padding: 0px;
-            text-align: center;
-            display: none;
-            background-image: url('../Icons/84631\ \(1\).jpg');
-            background-position: center center;
-        }
-        menu ul{
-            margin: 0px;
-            padding: 0px;
-            display: inline-block;
-        }
-        menu h4{
-            color: rgb(80, 90, 231);
-            font-size: 40px;
-            height: 70px;
-            margin-top: 10px; 
-            display: block;
-            text-decoration: underline;
-            margin-bottom: 10px;
-        }
-        menu h3{
-            color: rgb(255, 255, 255);
-            font-size: 40px;
-            margin-top: 20px; 
-            display: inline-block;
-            background-color: #212121;
-            padding-right: 50px;
-            }
-            #perfil:hover{
-                cursor: pointer;
-            }
-        #procura{
-            width: 150px;
-            background-color: #3d3c3c;
-            display: inline-block;
-            margin: 0px;
-        }
-        #mg{
-            float: right;
-            display:  inline-block;
-        }
-        #mx{
-            text-decoration: none;
-        }
-        .k9{
-           background-color: #c0bdbd;
-        }
-        .one{
-            display: none;
-        }
-        div img:hover{
-            transform: translate(1px, 1%)
-        }
-        div > li{
-            list-style: none;
-            display: inline-block;
-            text-align: center;
-            margin:auto;
-            font-family: monospace;
-            padding-right: 10px;
-            padding-left: 10px;
-            margin-right: 5px;
-            margin-left: 6px;
-        }
-        div li:hover{
-            border-bottom: solid 2px royalblue;
-            cursor: pointer;
-        }
-        ul > li a:hover{
-            cursor: pointer;
-            color: rgb(0, 0, 0);
-        }
-        h4{
-            color: rgb(80, 90, 231);
-            font-size: 40px;
-            margin-top: 20px; 
-            display: block;
-            text-decoration: underline;
-        }
-        #log{
-            background-image: url('../Icons/1054068.jpg');
-            background-position: center;
-        }
-        .d8 img:hover{
-            -webkit-transition: all .4s ease-out;
-            -moz-transition: all .4s ease-out;
-            -o-transition: all .4s ease-out;
-            transition: all .4s ease-out
-        }
-        .d1lado{
-            display: inline-block;
-            margin: 0px;
-            text-align: center;
-            padding: 8px;
-            padding-left: 20px;
-        }
-        div a img{
-            width: 100px;
-            height: 120px;
-        }
-        a > p{
-            margin: 0px;
-        }
-        #onep{
-            padding-left: 30px;
-            padding-right: 15px;
-        }
-        .anony{
-            border: solid 2px #0E0E0E;
-            width: 80px;
-            text-align: initial;
-            margin: 0px;
-            display: inline-block;
-            background-color: #3d3c3c;
-            margin-left: 10px;
-            color: rgb(64, 231, 31);
-            display: unset;
-            padding: 5px;
-        }
-        ul li a{
-            text-decoration: none;
-            color: aliceblue;
-        }
-        ul > li > a:hover{
-            color: #0E0E0E;
-        }
-        li{
-            margin: 0px;
-        }
-        ul{
-            margin: 0px;
-        }
-        #thor{
-            color: rgb(223, 10, 20);
-        }
-        
+body{
+    background-color: #0E0E0E;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    background-position: right;
+    display: inline-block;
+    margin: 0px;
+}
+#p1{
+    display: inline-block;
+    width: 180px;
+    height: 276px;
+    background-color: black;
+}
+#p2{
+    display: inline-block;
+    height: 256px;
+    width: 700px;
+    background-color: #636060;
+    position: absolute;
+    text-align: start;
+    text-indent: 10px;
+    padding-top: 20px;
+}
+span{
+    font-size: 30px;
+    color: aliceblue;
+}
+p{
+    font-size: 17px;
+}
+.d1{
+    width: 850px;
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    background-color: #1d1c1c;
+    padding-top: 10px;
+    border-left: 4px solid rgb(226, 42, 42);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+}
+#l1{
+    width: 850px;
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    background-color: #1d1c1c;
+    padding-top: 10px;
+    border-left: 4px solid rgb(80, 90, 231);
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+}
+#l1 > a{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    padding-left: 10px;
+}
+#l1 a:hover{
+    color: rgb(218, 221, 22);
+    cursor: pointer;
+}
+.d1 > a{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    margin: 10px;
+    display: inline-block;
+}
+div a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.d8 div a:hover{
+    color: rgba(250, 235, 33, 0.945);
+    text-decoration: underline;
+}
+.d1 a:hover{
+    color: rgb(226, 42, 42);
+}
+.p8{
+    background-color: rgb(77, 76, 76);
+    color: aliceblue;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 280px;
+    border-radius: 10px;
+    border-left: 6px solid rgb(212, 32, 47);
+}
+h2 > p{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(212, 32, 47);
+}
+.k1:hover{
+    color: rgba(250, 235, 33, 0.945);
+    text-decoration: underline;
+}
+#perfil{
+    width: 28px;
+    border-radius: 50%;
+    
+    display: inline-block;
+}
+menu li{
+    color: aliceblue;
+    list-style-type: none;
+    background-color: rgb(212, 32, 47);
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+menu{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: none;
+    background-image: url('../Icons/84631\ \(1\).jpg');
+    background-position: center center;
+}
+menu ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+menu h4{
+    color: rgb(80, 90, 231);
+    font-size: 40px;
+    height: 70px;
+    margin-top: 10px; 
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+menu h3{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 20px; 
+    display: inline-block;
+    background-color: #212121;
+    padding-right: 50px;
+    }
+    #perfil:hover{
+        cursor: pointer;
+    }
+#procura{
+    width: 150px;
+    background-color: #3d3c3c;
+    display: inline-block;
+    margin: 0px;
+    padding-top: 3px;
+    border: 0px;
+    padding-bottom: 1px;
+    border: solid 1.5px rgb(90, 89, 89);
+    border-right: 0px;
+}
+#mg{
+    float: right;
+    display:  inline-block;
+}
+#mx{
+    text-decoration: none;
+}
+.k9{
+    background-color: #c0bdbd;
+    border: solid 1.9px rgb(90, 89, 89);
+    border-left: 0px;
+}
+.one{
+    display: none;
+}
+div img:hover{
+    transform: translate(1px, 1%)
+}
+div > li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin:auto;
+    font-family: monospace;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+div li:hover{
+    border-bottom: solid 2px royalblue;
+    cursor: pointer;
+}
+ul > li a:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+h4{
+    color: rgb(80, 90, 231);
+    font-size: 40px;
+    margin-top: 20px; 
+    display: block;
+    text-decoration: underline;
+}
+#log{
+    background-image: url('../Icons/1054068.jpg');
+    background-position: center;
+}
+.d8 img:hover{
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out
+}
+.d1lado{
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    padding: 8px;
+    padding-left: 20px;
+}
+div a img{
+    width: 100px;
+    height: 120px;
+}
+a > p{
+    margin: 0px;
+}
+#onep{
+    padding-left: 30px;
+    padding-right: 15px;
+}
+.anony{
+    border: solid 2px #0E0E0E;
+    width: 80px;
+    text-align: initial;
+    margin: 0px;
+    display: inline-block;
+    background-color: #3d3c3c;
+    margin-left: 10px;
+    color: rgb(64, 231, 31);
+    display: unset;
+    padding: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+ul > li > a:hover{
+    color: #0E0E0E;
+}
+li{
+    margin: 0px;
+}
+ul{
+    margin: 0px;
+}
+#thor{
+    color: rgb(223, 10, 20);
+}
+.cachorro{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(45, 166, 182); 
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #636060 1px solid;
+    width: 60%;
+}
+#grad{
+    width: 60%;
+    height: 40px;
+    background-color: #3d3c3c;
+    padding-left: 15px;
+}
+#dog{
+    color: rgb(189, 30, 70); 
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+#iframe1{
+    width: 50px;
+    height: 50px;
+}
+#cat{
+    padding-left: 15px;
+    border-bottom: solid rgb(90, 89, 89) 1px;
+}
+#publico{
+    margin-bottom: 5px;
+}
+#publicc{
+    margin-left: 10px;
+}
+#charm{
+    color: rgb(201, 20, 20);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}

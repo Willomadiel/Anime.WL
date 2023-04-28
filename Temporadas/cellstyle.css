@@ -25,6 +25,7 @@
     #br{
         width: 100%;
         text-align: center;
+        border-bottom: 1px solid #212121;
     }
     main #p2{
         width: 40%;
@@ -51,9 +52,9 @@
     #br #mx{
         padding: 0px;
         text-align: center;
-        
     }
     div #l1{
         margin-right: 0px;
     }
+    
 }
