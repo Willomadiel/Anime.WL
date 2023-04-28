@@ -428,3 +428,34 @@ ul{
     margin-top: 10px;
     width: 60%;
 }
+#mg{
+    text-align: center;
+    float: right;
+}
+#procura:focus{
+    background-color: #3d3c3c;
+}
+#canalha{
+    width: 150px;
+    font-size: 19px;
+    display: block;
+    text-align: initial;
+    position: absolute;
+    background-color: #3d3c3c;
+    display: none;
+}
+#canalha li{
+    border-bottom: hidden 2px #5c5c5c;
+    color: aliceblue;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+    padding-left: 3px;
+    
+    border-bottom: solid 1px #251f1f;
+}
+#canalha li:hover{
+    background-color: #251f1f;
+}
+

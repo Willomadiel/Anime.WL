@@ -27,9 +27,19 @@
     <div id="mx" href="../index.html" style="color: rgb(212, 32, 47);
     display: inline-block;">Animes <img id="perfil" src="Icons/perfil.png"  onclick="login()" alt=""> Willo</div>
 
-    <div id="mg"><input class="k9" type="search" placeholder="Procurar Anime" name="procura" id="procura"><input type="button" class="k9" onclick="procura()" value="🔎">
-    </div>
-    </h1>
+    <div id="mg">
+        <form method="get" action="../alfabeto/All.html" id="searchform">
+
+            <input class="k9" type="search" maxlength="20" placeholder="Procurar Anime" name="procura" id="procura" autocomplete="off" ><input type="button" id="procurase" value="🔎">
+
+            <div id="canalha">
+                <li clasrs="cana">One Piece</li>
+                <li class="cana">Hajime no Ippo</li>
+                <li class="cana">Boku no Hero</li>
+                <li class="cana">Blue Lock</li>
+            </div>
+        </form>
+    </div></h1>
     <menu id="itens">
         <ul>
             <h4>Generos</h4>
@@ -339,7 +349,7 @@
         <div class="protagoxx">
             <a href="Temporadas/Temp Demon Slayer.html"><img class="i1" src="../imgpesquisa/demon slayer.jpeg" alt="Anime"><br><p>Demon Slayer</p></a>
         </div>
-        <div class="protagoxx">
+        <div class="protagoxx" id="brow">
             <a href="Temporadas/Temp Vinland Saga.html"><img class="i1" src="../imgpesquisa/Viland saga.jpg" alt="Anime"><br><p>Vinland Saga</p></a>
         </div>
         <div class="protagoxx">

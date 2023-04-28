@@ -57,3 +57,25 @@ function clickMen(){
         itens.style.display = 'block'
     }
 }
+function procurando(){
+    if (canalha.style.display == 'block'){
+        canalha.style.display = 'none'
+    }else{
+        canalha.style.display = 'block'
+    }
+}
+var procura = document.getElementById('procura')
+procura.addEventListener('click', procurando)
+
+var lista = []
+function procuras(){
+    var procura = document.getElementById('procura')
+    var valor = procura.value
+    if (valor == "" || isNaN(valor) == false){
+        window.location.href='../Erro.html'
+        return;
+    }
+document.getElementById('res').textContent = valor
+} 
+var procurase = document.getElementById('procurase')
+procurase.addEventListener('click', procuras)
