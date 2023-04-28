@@ -56,5 +56,16 @@
     div #l1{
         margin-right: 0px;
     }
-    
+    #protagoxx{
+        padding: 10px;
+    }
+    #caiu1{
+        display: none;
+    }
+    #caiu2{
+        display: none;
+    }
+    #master{
+        width: 100%;
+    }
 }
