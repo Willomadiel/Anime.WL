@@ -249,9 +249,9 @@ menu h3{
     background-color: #212121;
     padding-right: 50px;
     }
-    #perfil:hover{
-        cursor: pointer;
-    }
+#perfil:hover{
+    cursor: pointer;
+}
 #procura{
     width: 150px;
     background-color: #3d3c3c;
@@ -370,7 +370,7 @@ ul{
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
     border: #636060 1px solid;
-    width: 60%;
+    width: 98%;
 }
 #grad{
     width: 60%;
@@ -388,6 +388,7 @@ ul{
 #iframe1{
     width: 50px;
     height: 50px;
+    float: inline-start;
 }
 #cat{
     padding-left: 15px;
@@ -403,4 +404,23 @@ ul{
     color: rgb(201, 20, 20);
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.protagoxx{
+    display: inline-block;
+    margin: 0px;
+    padding-left: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+#master{
+    width: 810px;
+    border: #3b3a3a solid 1px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+#cant{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
 }
