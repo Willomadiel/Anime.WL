@@ -9,6 +9,15 @@ h1{
     margin-right: 0px;
     padding-right: 0px;
 }
+#canalha{
+    width: 150px;
+    font-size: 19px;
+    display: block;
+    text-align: initial;
+    position: absolute;
+    background-color: #3d3c3c;
+    display: none;
+}
 #cr{
     padding-left: 8px;
     border: rgb(116, 3, 3);
@@ -434,15 +443,6 @@ ul{
 }
 #procura:focus{
     background-color: #3d3c3c;
-}
-#canalha{
-    width: 150px;
-    font-size: 19px;
-    display: block;
-    text-align: initial;
-    position: absolute;
-    background-color: #3d3c3c;
-    display: none;
 }
 #canalha li{
     border-bottom: hidden 2px #5c5c5c;
