@@ -7,13 +7,12 @@
     <link rel="shortcut icon" href="../Icons/icons8-w-key-16.png" type="image/x-icon">
     <title>Anime: Poderes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Style/cellstyle.css">
     <style> 
         body{ background-color: #212121;
             color: rgb(0, 0, 0);
         }
     #principal{
-        width: 920px;
-        height: 1150px;
         background: #0E0E0E;
         margin: auto;
         padding: 20px;
@@ -79,27 +78,32 @@
         color: rgba(250, 235, 33, 0.945);
         cursor: pointer;
     }
+    #br{
+        text-align: center;
+    }
+    #cr{
+        float: left;
+    }
+    #br{
+        width: 100%;
+    }
     </style>
 </head>
 <body>
         <h1 id="br" style="line-height: normal 20pt;
         background: #0E0E0E;
-        width: 1330px;
-        padding-right: 18px;
         display: inline-block;">
         <div id="cr" style="font-size: 27px;
         display: inline-block;
         text-align: start;
         width: 32px; 
         " onclick="clickMenu()">&#9776;</div>
-        <a id="mx" href="../index.html" style="color: rgb(212, 32, 47);
-        display: inline-block;">Animes Willo</a>
+        <a id="mx" style="color: rgb(212, 32, 47);
+        display: inline-block;">Animes <img id="perfil" src="../Imagens/perfil.png"  onclick="login()" alt=""> Willo</a>
         <div id="mg">
-            <input class="k9" type="search" placeholder="Procurar Anime" name="procura" id="procura">
-            <input type="button" class="k9" onclick="procura()" value="⨀">
+            <input class="k9" type="search" placeholder="Procurar Anime" name="procura" id="procura"><input type="button" class="k9" onclick="procura()" value="🔎">
             <div class="content"></div>
-        </div>
-        <img id="perfil" src="../Imagens/perfil.png"  onclick="login()" alt=""></h1>
+        </div></h1>
         <menu id="itens">
             <ul>
                 <h4>Generos</h4>
@@ -114,7 +118,7 @@
                 <li><a href="Culinaria.html">Culinaria</a></li>
                 <li><a href="Shounen.html">shounen</a></li>
                 <li><a href="Shoujo.html">shoujo</a></li>
-                <li><a href="Seinen.html">seinen</a></li>../
+                <li><a href="Seinen.html">seinen</a></li>
             </ul>
         </menu>
         <menu id="log">
@@ -123,7 +127,6 @@
             <li><a href="../cadastro.html">Cadastre-se</a></li>
         </menu>
         <div class="f3" href="download.jpg" style=" height: 26px;
-        width: 1337px;
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #0E0E0E;
@@ -158,69 +161,70 @@
         <li><a href="All.html">#</a></li>
     </div>
         <div id="principal">
-            <div id="topo1">
-                Anime: Poderes
-            </div>
-            <a href="../Temporadas/Temp Boku no Hero.html">
-                <div id="fora">
-                    <img src="../imgpesquisa/boku no hero.jpeg" id="conteudo" alt="img">
-                    <br><p>Boku no Hero</p>
+            <div id="principal">
+                <div id="topo1">
+                    Anime: Poderes
                 </div>
-            </a>
-            <a href="../Temporadas/Temp Dragon Ball.html">
-                <div id="fora">
-                    <img src="../imgpesquisa/DBZ Super.jpeg" id="conteudo" alt="img">
-                    <br><p>Dragon Ball Super</p>
-                </div>
-            </a>
-            <a href="../Temporadas/Temp Death Note.html">
-                <div id="fora">
-                    <img src="../imgpesquisa/Death note.jpg" id="conteudo" alt="img">
-                    <br><p>Death Note</p>
-                </div>
-            </a>
-            <a href="../Temporadas/Temp Demon Slayer.html">
-                <div id="fora">
-                    <img src="../imgpesquisa/demon slayer.jpeg" id="conteudo" alt="img">
-                    <br><p>Demon Slayer</p>
-                </div>
-            </a>
-            <a href="../Temporadas/Temp Hunter x Hunter.html">
-                <div id="fora">
-                    <img src="../imgpesquisa/hunter x hunter.jpeg" id="conteudo" alt="img">
-                    <br><p>Hunter x Hunter</p>
-                </div>
-            </a>
-            <a href="../Temporadas/Temp Jujutsu Kaisen.html">
-                <div id="fora">
-                    <img src="../imgpesquisa/jujutsu kaisen.jpeg" id="conteudo" alt="img">
-                    <br><p>Jujutsu Kaisen</p>
-                </div>
-            </a>
-            <a href="../Temporadas/Temp Nanatsu no Taizai.html">
-                <div id="fora">
-                    <img src="../imgpesquisa/nanatsu no taizai.jpg" id="conteudo" alt="img">
-                    <br><p>Nanatsu no Taizai</p>
-                </div>
-            </a>
-            <a href="../Temporadas/Temp Naruto.html">
-                <div id="fora">
-                    <img src="../imgpesquisa/naruto.jpg" id="conteudo" alt="img">
-                    <br><p>Naruto</p>
-                </div>
-            </a>
-            <a href="../Temporadas/Temp One Piece.html">
-                <div id="fora">
-                    <img src="../imgpesquisa/One piece.jpg" id="conteudo" alt="img">
-                    <br><p>One Piece</p>
-                </div>
-            </a>
-            <a href="../Temporadas/Temp One Punch Man.html">
-                <div id="fora">
-                    <img src="../imgpesquisa/One punch.jpg" id="conteudo" alt="img">
-                    <br><p>One Punch Man</p>
-                </div>
-            </a>
+                <a href="../Temporadas/Temp Boku no Hero.html">
+                    <div id="fora">
+                        <img src="../imgpesquisa/boku no hero.jpeg" id="conteudo" alt="img">
+                        <br><p>Boku no Hero</p>
+                    </div>
+                </a>
+                <a href="../Temporadas/Temp Dragon Ball.html">
+                    <div id="fora">
+                        <img src="../imgpesquisa/DBZ Super.jpeg" id="conteudo" alt="img">
+                        <br><p>Dragon Ball Super</p>
+                    </div>
+                </a>
+                <a href="../Temporadas/Temp Death Note.html">
+                    <div id="fora">
+                        <img src="../imgpesquisa/Death note.jpg" id="conteudo" alt="img">
+                        <br><p>Death Note</p>
+                    </div>
+                </a>
+                <a href="../Temporadas/Temp Demon Slayer.html">
+                    <div id="fora">
+                        <img src="../imgpesquisa/demon slayer.jpeg" id="conteudo" alt="img">
+                        <br><p>Demon Slayer</p>
+                    </div>
+                </a>
+                <a href="../Temporadas/Temp Hunter x Hunter.html">
+                    <div id="fora">
+                        <img src="../imgpesquisa/hunter x hunter.jpeg" id="conteudo" alt="img">
+                        <br><p>Hunter x Hunter</p>
+                    </div>
+                </a>
+                <a href="../Temporadas/Temp Jujutsu Kaisen.html">
+                    <div id="fora">
+                        <img src="../imgpesquisa/jujutsu kaisen.jpeg" id="conteudo" alt="img">
+                        <br><p>Jujutsu Kaisen</p>
+                    </div>
+                </a>
+                <a href="../Temporadas/Temp Nanatsu no Taizai.html">
+                    <div id="fora">
+                        <img src="../imgpesquisa/nanatsu no taizai.jpg" id="conteudo" alt="img">
+                        <br><p>Nanatsu no Taizai</p>
+                    </div>
+                </a>
+                <a href="../Temporadas/Temp Naruto.html">
+                    <div id="fora">
+                        <img src="../imgpesquisa/naruto.jpg" id="conteudo" alt="img">
+                        <br><p>Naruto</p>
+                    </div>
+                </a>
+                <a href="../Temporadas/Temp One Piece.html">
+                    <div id="fora">
+                        <img src="../imgpesquisa/One piece.jpg" id="conteudo" alt="img">
+                        <br><p>One Piece</p>
+                    </div>
+                </a>
+                <a href="../Temporadas/Temp One Punch Man.html">
+                    <div id="fora">
+                        <img src="../imgpesquisa/One punch.jpg" id="conteudo" alt="img">
+                        <br><p>One Punch Man</p>
+                    </div>
+                </a>
                 <div id="total">
                     <p class="next" id="tamo">
                         Paginas 1 de 1

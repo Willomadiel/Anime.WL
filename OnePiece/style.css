@@ -486,4 +486,6 @@ ul > a{
 #propio{
     border-left: 1px solid grey;
     border-right: 1px solid grey;
+    padding-left: 3px;
+    padding-right: 3px;
 }
