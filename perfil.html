@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="Icons/icons8-w-key-16.png" type="image/x-icon">
     <link rel="stylesheet" href="Style/perfil.css">
     <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/perfi.css">
+
     <style>
         body{
             background-color: rgb(44, 43, 43);
@@ -17,8 +19,7 @@
         }
         fieldset{
             height: 500px;
-            display: block;
-            width: 800px;
+            display: block; 
             text-align: justify;
             font-size: 30px;
             color: aliceblue;
@@ -36,7 +37,6 @@
         fieldset #j1{
             margin-left: 35px;
             height: 60px;
-            width: 330px;
             background-color: rgb(43, 146, 230);
             font-size: 20px;
             margin-top: 50px;
@@ -86,7 +86,6 @@
             display: block;
         }
         h2{
-            width: 1330px;
             height: 110px;
             background-color: #0E0E0E;
             text-align: center;
@@ -107,7 +106,6 @@
             background-image: url('Temporadas/Icons/955301.jpg');
             background-position: center top; 
             background-size: 40%;
-            padding-right: 18px;
         }
         h2 img:hover{
             transform: translate(-3px, -3px);
@@ -132,7 +130,6 @@
         }
         header{
             height: 145px;
-            width: 800px;
             display: inline-block;
             text-align: start;
         }
@@ -154,11 +151,9 @@
         #sob2{
             display: inline-block;
             height: 145px;
-            width: 458px;
             background-color: rgb(92, 158, 233);
             text-align: center;
             position: absolute;
-            margin-left: 200px;
             color: black;
             background-color: rgb(44, 42, 42);
         }
@@ -181,14 +176,12 @@
             text-decoration: none;
             color: rgb(212, 32, 47);
             font-size: 30px;
-            margin-right: 369px;
         }
     </style>
 </head>
 <body>
     <h1 id="br" style="line-height: normal 20pt;
         background: #0E0E0E;
-        width: 1349px;
         display: inline-block;">
         <div id="cr" style="font-size: 27px;
         display: inline-block;
@@ -196,12 +189,11 @@
         width: 32px; 
         cursor: pointer;
         " onclick="clickMenu()">&#9776;</div>
-        <span style="color: rgb(212, 32, 47);
-        display: inline-block;"><a id="j7" href="index.html">Animes Willo</a></span>
+        <div style="color: rgb(212, 32, 47);
+        display: inline-block;"><a id="j7" >Animes <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""> Willo</a></div>
         <div id="mg">
-            <input class="k9" type="search" placeholder="Procurar Anime" name="procura" id="procura">
-            <input type="button" class="k9" onclick="procura()" value="⨀">
-        <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""></h1>
+            <input class="k9" type="search" maxlength="20" placeholder="Procurar Anime" name="procura" id="procura" autocomplete="off" ><input type="button" id="procurase" value="🔎">
+        </h1>
         <menu id="itens">
             <ul>
                 <h4>Generos</h4>
@@ -224,8 +216,7 @@
             <li><a href="perfil.html">Perfil</a></li>
             <li><a href="cadastro.html">Cadastre-se</a></li>
         </menu>
-        <div class="f3" href="download.jpg" style=" height: 26px;
-        width: 1337px;
+        <div class="f3" href="download.jpg" style=" 
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #0E0E0E;
@@ -259,15 +250,10 @@
         <li><a href="alfabeto/Letra-Z.html">Z</a></li>
         <li><a href="alfabeto/All.html">#</a></li>
     </div>
-    <form action="Cadastro.py" method="post">
+    <form id="form1" action="Cadastro.py" method="post">
         <fieldset id="f1">
             <legend>Seu Perfil</legend>
-            <header style="background-color: rgb(20, 20, 20)"> <iframe id="frame" src="Imagens/wqdddwq.jpeg" frameborder="0"></iframe><main id="sob" style="display: inline-block;">
-                <li style="color: red;">ADM</li> 
-                <li style="color: rgb(68, 245, 24);">Brasileiro</li> 
-                <li style="color: blue;">OTaku</li>
-                <li style="color: yellow;">Competidor</li>
-                <li style="color: darkorange;">Tecnico Manutenção</li></main>
+            <header style="background-color: rgb(20, 20, 20)"> <iframe id="frame" src="Imagens/wqdddwq.jpeg" frameborder="0"></iframe>
                 <div id="sob2"><p>Medalhas</p><br>
                 <li class="li">🥇</li> 
                 <li class="li">🥈</li> 

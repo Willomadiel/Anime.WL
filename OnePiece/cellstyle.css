@@ -69,4 +69,7 @@
     #brow{
         margin-right: 25px;
     }
+    ul > a{
+        font-size: 18px;
+    }
 }

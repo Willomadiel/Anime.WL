@@ -46,9 +46,9 @@ menu h3{
     background-color: #212121;
     padding-right: 50px;
     }
-    #perfil:hover{
-        cursor: pointer;
-    }
+#perfil:hover{
+    cursor: pointer;
+}
 #itens{
     padding-top: 20px;
 }

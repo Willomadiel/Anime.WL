@@ -473,7 +473,7 @@ ul{
     background-color: #000000;
     color: aliceblue;
 }
-ul a{
+ul > a{
     margin: 0px;
     font-size: 20px;
     width: 30%;
