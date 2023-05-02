@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="Icons/icons8-w-key-16.png" type="image/x-icon">
     <link rel="stylesheet" href="Style/perfil.css">
     <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/perfi.css">
     <style>
         body{
             background-color: rgb(44, 43, 43);
@@ -21,7 +22,6 @@
         fieldset{
             height: 500px;
             display: block;
-            width: 400px;
             text-align: justify;
             font-size: 30px;
             color: aliceblue;
@@ -51,9 +51,6 @@
         }
         #date{
             font-size: 18px;
-        }
-        h1 > div{
-            margin-right: 527px;
         }
         h1{
             font-family: Arial, Helvetica, sans-serif;
@@ -92,7 +89,6 @@
             display: block;
         }
         h2{
-            width: 1330px;
             height: 110px;
             background-color: #0E0E0E;
             text-align: center;
@@ -113,7 +109,6 @@
             background-image: url('Temporadas/Icons/955301.jpg');
             background-position: center top; 
             background-size: 40%;
-            padding-right: 18px;
         }
         h2 img:hover{
             transform: translate(-3px, -3px);
@@ -142,28 +137,29 @@
             font-size: 30px;
         }
         #file{
-            width: 167px;
+            width: 126px;
+            display: block;
+        }
+        #br{
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1 id="br" style="line-height: normal 20pt;
         background: #0E0E0E;
-        width: 1348px;
         display: inline-block;">
         <div id="cr" style="font-size: 27px;
         display: inline-block;
         text-align: start;
         width: 32px; 
         " onclick="clickMenu()">&#9776;</div>
-        <a id="mx" href="index.html" style="color: rgb(212, 32, 47);
-        display: inline-block;">Animes Willo</a>
+        <a id="mx" style="color: rgb(212, 32, 47);
+        display: inline-block;">Animes <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""> Willo</a>
         <div id="mg">
-            <input class="k9" type="search" placeholder="Procurar Anime" name="procura" id="procura">
-            <input type="button" class="k9" onclick="procura()" value="⨀">
+            <input class="k9" type="search" placeholder="Procurar Anime" name="procura" id="procura"><input type="button" class="k9" onclick="procura()" value="🔎">
             <div class="content"></div>
-        </div>
-        <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""></h1>
+        </div></h1>
         <menu id="itens">
             <ul>
                 <h4>Generos</h4>
@@ -182,6 +178,7 @@
             </ul>
         </menu>
         <menu id="log">
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="Conta.html">Login</a></li>
             <li><a href="perfil.html">Perfil</a></li>
             <li><a href="cadastro.html">Cadastre-se</a></li>

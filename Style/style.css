@@ -264,6 +264,7 @@
     }
     .k9{
         background-color: #c0bdbd;
+        border: solid 1.9px rgb(90, 89, 89);
     }
     .i1:hover{
         transform: translate(1px, 2%)
