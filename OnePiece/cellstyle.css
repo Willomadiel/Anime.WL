@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@media screen and (min-width: 100px) and (max-width: 910px){
+    #d0{
+        display: none;
+    }
+    #cr{
+        margin: 0px;
+        float: left;
+    }
+    #p2{
+        width: 100%;
+    }
+    .p1 #text{
+        display: none;
+    }
+    #ain{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #ainnn{
+        width: 100%;
+        margin: 0px;
+        font-size: 18px;
+    }
+    #br{
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #212121;
+    }
+    main #p2{
+        width: 40%;
+        text-align: justify;
+    }
+    .f3{
+        display: none;
+    }
+    div > #l1{
+        width: 100%;
+        max-width: 98%;
+    }
+    body{
+        width: 100%;
+    }
+    div > .d1{
+        width: 100%;
+        max-width: 96%;
+    }
+    div .anony{
+        text-align: center;
+       display: block;
+    }
+    #br #mx{
+        padding: 0px;
+        text-align: center;
+    }
+    div #l1{
+        margin-right: 0px;
+    }
+    #caiu1{
+        display: none;
+    }
+    #caiu2{
+        display: none;
+    }
+    .k9{
+        padding-top: 3px;
+    }
+    #brow{
+        margin-right: 25px;
+    }
+}
