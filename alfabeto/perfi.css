@@ -76,8 +76,12 @@
         padding-left: 0px;
         padding-right: 0px;
         width: 140px;
+        display: inline-block;
     }
     #itens li{
+        width: 80px;
+    }
+    #log li{
         width: 80px;
     }
 }
