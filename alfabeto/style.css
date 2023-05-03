@@ -329,5 +329,7 @@
         #total{
             float: inline-end;
         }
-
-        
+        #principal{
+            max-width: 920px;
+            min-height: 500px;
+        }
