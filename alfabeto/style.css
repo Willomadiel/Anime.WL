@@ -263,8 +263,7 @@
         }
         #mg{
             margin: 0px;
-            display: inline-block;
-            height: 0px;
+            display: inline-block;      
             float: right;
         }
         #mx{
@@ -330,3 +329,5 @@
         #total{
             float: inline-end;
         }
+
+        
