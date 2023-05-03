@@ -72,4 +72,8 @@
         width: 120px;
         height: 120px;
     }
+    div #fora{
+        padding-left: 0px;
+        width: 140px;
+    }
 }
