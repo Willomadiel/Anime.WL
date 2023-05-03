@@ -77,4 +77,7 @@
         padding-right: 0px;
         width: 140px;
     }
+    #itens li{
+        width: 80px;
+    }
 }
