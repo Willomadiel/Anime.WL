@@ -84,4 +84,7 @@
     #log li{
         width: 80px;
     }
+    body #principal{
+        padding: 10px;
+    }
 }
