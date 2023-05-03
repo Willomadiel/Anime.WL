@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@media screen and (min-width: 1330px) and (max-width: 4010px){ 
+    .f3 div{
+        width: 100%;
+    }
+    #principal{
+        height: 90vh;
+    }
+}
