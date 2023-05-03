@@ -74,6 +74,7 @@
     }
     div #fora{
         padding-left: 0px;
+        padding-right: 0px;
         width: 140px;
     }
 }
