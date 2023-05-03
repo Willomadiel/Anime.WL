@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@media screen and (min-width: 100px) and (max-width: 910px){ 
+    .meio{
+        display: inline-block;
+        text-align: center;
+    }
+    .meio img{
+        margin-right: 0px;
+        padding-left: 10px;
+        width: 282px;
+    }
+    h2{
+        width: 100%;
+    }
+    .a3{
+        padding-right: 40%;
+    }
+    main{
+        width: 100%;
+    }
+    #tex{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+    #trax{
+        width: 100%;
+        padding: 0px;
+    }
+    #br{
+        width: 100%;
+        margin: 0px;
+        padding-right: 0px;
+    }
+    .f3{
+        display: none;
+    }
+    #cr{
+        margin: 0px;
+    }
+    #mx{
+        margin: 0px;
+        padding: 0px;
+        float: initial;
+    }
+    #prax{
+        padding-right: 80%;
+    }
+   
+    #kros{
+        padding-left: 13px;
+    }
+    .protagoxx img{
+        margin-right: 0px;
+        padding-left: 16px;
+        width: 125px;
+    }
+    #caiu3{
+        display: none;
+    }
+    #caiu4{
+        display: none;
+    }
+    body{
+        width: 100%;
+    }
+    #form1{
+        width: 100%;
+        margin: 0px;
+    }
+    div #conteudo{
+        width: 120px;
+        height: 120px;
+    }
+}
