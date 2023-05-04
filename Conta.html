@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animes.WL: Login</title>
     <link rel="shortcut icon" href="Icons/icons8-w-key-16.png" type="image/x-icon">
-    <link rel="stylesheet" href="Style/perfil.css">
+    <title>Anime.WL</title>
     <link rel="stylesheet" href="Style/style.css">
-    <link rel="stylesheet" href="Style/perfi.css">
+    <link rel="stylesheet" href="Style/cellstyle.css">
+    <link rel="stylesheet" href="Style/cell2style.css">
+    <link rel="stylesheet" href="Style/scroll.css">
     <style>
         body{
             background-color: rgb(44, 43, 43);
             font-family: Arial, Helvetica, sans-serif;
-            margin-left: 30px;
             text-align: center;
             margin-top: 0px;
             margin-bottom: 0px;
-            margin-left: 0px;
+            margin: 0px;
         }
         fieldset{
             display: block;
@@ -59,7 +59,6 @@
             text-align: start;
         }
         #cr{
-            padding-left: 8px;
             border: rgb(116, 3, 3);
             border-width: 1px;
             border-style: solid;
@@ -71,10 +70,6 @@
         #cr:hover{
             color: rgb(224, 221, 221);
             display: none;
-        }
-        div{
-            font-size: 18px;
-
         }
         .f3{
             text-decoration: none;
@@ -142,23 +137,30 @@
         #br{
             text-align: center;
         }
+        #to{
+            font-size: 18px;
+        }
     </style>
 </head>
 <body>
-    <h1 id="br" style="line-height: normal 20pt;
+        <h1 id="br" style="line-height: normal 20pt;
         background: #0E0E0E;
         display: inline-block;">
         <div id="cr" style="font-size: 27px;
         display: inline-block;
-        text-align: start;
-        width: 32px; 
+        text-align: center;
+        width: 40px; 
         " onclick="clickMenu()">&#9776;</div>
-        <a id="mx" style="color: rgb(212, 32, 47);
-        display: inline-block;">Animes <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""> Willo</a>
+        <div id="mx" href="index.html" style="color: rgb(212, 32, 47);
+        display: inline-block;">Animes <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""> Willo</div>
         <div id="mg">
-            <input class="k9" type="search" placeholder="Procurar Anime" name="procura" id="procura"><input type="button" class="k9" onclick="procura()" value="🔎">
-            <div class="content"></div>
+            <form method="get" action="alfabeto/All.html" id="searchform">
+
+                <input class="k9" type="search" maxlength="20" placeholder="Procurar Anime" name="procura" id="procura" autocomplete="off" ><input type="button" id="procurase" value="🔎">
+
+            </form>
         </div></h1>
+        <div id="res"></div>
         <menu id="itens">
             <ul>
                 <h4>Generos</h4>
@@ -182,8 +184,7 @@
             <li><a href="perfil.html">Perfil</a></li>
             <li><a href="cadastro.html">Cadastre-se</a></li>
         </menu>
-        <div class="f3" href="download.jpg" style=" height: 26px;
-        width: 1338px;
+        <div class="f3" href="download.jpg" style=" height: 40px;
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #0E0E0E;

@@ -1,10 +1,10 @@
 @charset "UTF-8";
-@media screen and (min-width: 1330px) and (max-width: 4010px){ 
+@media screen and (min-width: 1330px) and (max-width: 4100px){ 
     #maioria{
         text-align: center;
         margin: auto;
     }
     #principal{
-        height: 95vh;
+        height: 100%;
     }
 }
