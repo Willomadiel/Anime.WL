@@ -59,4 +59,10 @@
     #caiu4{
         display: none;
     }
+    #itens li{
+        width: 80px;
+    }
+    #log li{
+        width: 80px;
+    }
 }

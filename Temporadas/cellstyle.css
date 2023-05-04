@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width: 100px) and (max-width: 910px){
+@media screen and (min-width: 100px) and (max-width: 1330px){
     #d0{
         display: none;
     }
@@ -31,9 +31,7 @@
     main #p2{
         width: 40%;
         text-align: justify;
-    }
-    .f3{
-        display: none;
+        border: 0px;
     }
     div > #l1{
         width: 100%;
@@ -68,5 +66,11 @@
     }
     #brow{
         margin-right: 25px;
+    }
+    #itens li{
+        width: 80px;
+    }
+    #log li{
+        width: 80px;
     }
 }
