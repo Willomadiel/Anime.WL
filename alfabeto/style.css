@@ -333,5 +333,6 @@
         }
         #principal{
             max-width: 920px;
+            min-height: 400px;
             height: 100%;
         }
