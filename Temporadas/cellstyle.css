@@ -7,12 +7,6 @@
         margin: 0px;
         float: left;
     }
-    #p2{
-        width: 100%;
-    }
-    .p1 #text{
-        display: none;
-    }
     #ain{
         width: 100%;
         margin: 0px;
@@ -28,11 +22,6 @@
         text-align: center;
         border-bottom: 1px solid #212121;
     }
-    main #p2{
-        width: 40%;
-        text-align: justify;
-        border: 0px;
-    }
     div > #l1{
         width: 100%;
         max-width: 98%;
@@ -43,10 +32,6 @@
     div > .d1{
         width: 100%;
         max-width: 96%;
-    }
-    div .anony{
-        text-align: center;
-       display: block;
     }
     #br #mx{
         padding: 0px;

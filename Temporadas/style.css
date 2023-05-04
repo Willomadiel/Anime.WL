@@ -119,28 +119,20 @@ body{
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
-div#p1{
-    background-image: url('Img-Temp/One\ piece.jpg');
-}
 #p1{
     display: inline-block;
     width: 180px;
     height: 276px;
-    background-color: black;
 }
 #p2{
     display: inline-block;
-    height: 256px;
-    width: 700px;
-    background-color: #636060;
-    position: absolute;
-    text-align: start;
+    background-color: #0E0E0E;
+    text-align: justify;
     text-indent: 10px;
-    padding-top: 20px;
-}
-span{
-    font-size: 30px;
-    color: aliceblue;
+    margin-top: 8px;
+    color: #e6e3e3;
+    border-top: solid 1px #5c5c5c;
+    border-bottom: solid 1px #5c5c5c;
 }
 p{
     font-size: 17px;
@@ -350,17 +342,10 @@ a > p{
     padding-left: 30px;
     padding-right: 15px;
 }
-.anony{
-    border: solid 2px #0E0E0E;
-    width: 80px;
-    text-align: initial;
-    margin: 0px;
-    display: inline-block;
-    background-color: #3d3c3c;
-    margin-left: 10px;
-    color: rgb(64, 231, 31);
-    display: unset;
-    padding: 5px;
+#braj{
+    float: right;
+    display: block;
+    width: 100px;
 }
 ul li a{
     text-decoration: none;
@@ -374,9 +359,6 @@ li{
 }
 ul{
     margin: 0px;
-}
-#thor{
-    color: rgb(223, 10, 20);
 }
 .cachorro{
     margin: 0px;
@@ -471,4 +453,55 @@ ul{
 }
 #mister{
     width: 1330px;
+}
+#will{
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+    float: left;
+}
+#text{
+    padding-left: 5px;
+    padding-right: 10px;
+}
+#jg{
+    position: relative;
+    float: left;
+    padding: 7px;
+}
+#tit{
+    font-size: 27px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #3d3c3c;
+}
+#tho div{
+    background-color: #413e3e;
+    border: 2px solid #837f7f;
+    padding: 2px;
+    color: rgb(223, 10, 20);
+    margin-top: 10px;
+    margin-bottom: 24px;
+    width: 50px;
+    display: inline-block;
+    height: 24px;
+    margin-left: 6px;
+}
+.gener a{
+    color: rgb(29, 216, 29);
+    background-color: #413e3e;
+    border: 2px solid #918f8f;
+    padding: 2px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 14px;
+}
+.gener{
+    display: inline-block;
+    padding-top: 10px;
+
+}
+#toxic{
+    border-top: 1px solid #3d3c3c;
 }
