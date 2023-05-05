@@ -1,6 +1,5 @@
-#mx{
-    padding-left: 460px;
-    padding-right: 410px;
+h1 #mx{
+    padding-left: 100px;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -8,6 +7,8 @@ h1{
     margin-bottom: 1px;
     margin-right: 0px;
     padding-right: 0px;
+    width: 100%;
+    text-align: center;
 }
 #canalha{
     width: 150px;
@@ -19,7 +20,6 @@ h1{
     display: none;
 }
 #cr{
-    padding-left: 8px;
     border: rgb(116, 3, 3);
     border-width: 1px;
     border-style: solid;
@@ -27,6 +27,7 @@ h1{
     background-color: rgb(212, 32, 47);
     position: relative;
     color: rgb(0, 0, 0);
+    float: left;
 }
 #cr:hover{
     color: rgb(224, 221, 221);
@@ -43,7 +44,6 @@ iframe{
     height: 740px;
     display: inline-block;
     padding-left: 10px;
-    padding-right: 10px;
     position: absolute;
     border-bottom: 1px solid #212121;
     border-left: 1px solid #212121;
@@ -59,8 +59,8 @@ iframe{
 }
 main{
     background-color: #0E0E0E;
-    width: 886px;
-    height: 560px;
+    width: 885px;
+    height: 700px;
     padding: 0px;
     display: inline-block;
     margin-top: 1px;
@@ -68,7 +68,7 @@ main{
     padding: 20px;
 }
 h2{
-    width: 1348px;
+    width: 100%;
     height: 110px;
     background-color: #0E0E0E;
     text-align: center;
@@ -92,12 +92,14 @@ h2 img{
 .f3{
     text-decoration: none;
     padding-top: 10px;
-    padding-left: 10px;
+    width: 100%;
+    margin: 0px;
     border-top: 1px solid #212121;
     border-bottom: 1px solid #212121;
+    text-align: center;
 }
 h2{
-    background-image: url('../Temporadas/Icons/573701.jpg');
+    background-image: url('../Icons/564835\ \(1\).jpg');
     background-position: center center; 
     background-size: 80%;
 }
@@ -112,30 +114,25 @@ menu{
 body{
     background-color: #0E0E0E;
     color: rgb(0, 0, 0);
-    text-align: justify;
     background-position: right;
-    display: inline-block;
-    margin: 0px;
+    display: block;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #p1{
     display: inline-block;
     width: 180px;
     height: 276px;
-    background-color: black;
 }
 #p2{
     display: inline-block;
-    height: 256px;
-    width: 700px;
-    background-color: #636060;
-    position: absolute;
-    text-align: start;
+    background-color: #0E0E0E;
+    text-align: justify;
     text-indent: 10px;
-    padding-top: 20px;
-}
-span{
-    font-size: 30px;
-    color: aliceblue;
+    margin-top: 8px;
+    color: #e6e3e3;
+    border-top: solid 1px #5c5c5c;
+    border-bottom: solid 1px #5c5c5c;
 }
 p{
     font-size: 17px;
@@ -345,17 +342,10 @@ a > p{
     padding-left: 30px;
     padding-right: 15px;
 }
-.anony{
-    border: solid 2px #0E0E0E;
-    width: 80px;
-    text-align: initial;
-    margin: 0px;
-    display: inline-block;
-    background-color: #3d3c3c;
-    margin-left: 10px;
-    color: rgb(64, 231, 31);
-    display: unset;
-    padding: 5px;
+#braj{
+    float: right;
+    display: block;
+    width: 100px;
 }
 ul li a{
     text-decoration: none;
@@ -370,17 +360,14 @@ li{
 ul{
     margin: 0px;
 }
-#thor{
-    color: rgb(223, 10, 20);
-}
 .cachorro{
     margin: 0px;
-    padding: 0px;
+    margin-left: 5px;
     color: rgb(45, 166, 182); 
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
     border: #636060 1px solid;
-    width: 98%;
+    width: 90%;
     margin-bottom: 20px;
 }
 #grad{
@@ -428,6 +415,7 @@ ul{
     margin-bottom: 20px;
     margin-top: 25px;
     padding-bottom: 10px;
+    
 }
 #cant{
     margin-left: 20px;
@@ -455,6 +443,67 @@ ul{
 }
 #canalha li:hover{
     background-color: #251f1f;
+}
+#master a:hover{
+    color: rgba(250, 235, 33, 0.945);
+    text-decoration: underline;
+}
+#master img:hover{
+    opacity: .3;
+}
+#mister{
+    width: 1330px;
+}
+#will{
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+    float: left;
+}
+#text{
+    padding-left: 5px;
+    padding-right: 10px;
+}
+#jg{
+    position: relative;
+    float: left;
+    padding: 7px;
+}
+#tit{
+    font-size: 27px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #3d3c3c;
+}
+#tho div{
+    background-color: #413e3e;
+    border: 2px solid #837f7f;
+    padding: 2px;
+    color: rgb(223, 10, 20);
+    margin-top: 10px;
+    margin-bottom: 24px;
+    width: 50px;
+    display: inline-block;
+    height: 24px;
+    margin-left: 6px;
+}
+.gener a{
+    color: rgb(29, 216, 29);
+    background-color: #413e3e;
+    border: 2px solid #918f8f;
+    padding: 2px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 14px;
+}
+.gener{
+    display: inline-block;
+    padding-top: 10px;
+
+}
+#toxic{
+    border-top: 1px solid #3d3c3c;
 }
 #master a:hover{
     color: rgba(250, 235, 33, 0.945);

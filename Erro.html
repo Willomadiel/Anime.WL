@@ -7,14 +7,19 @@
     <link rel="shortcut icon" href="Icons/icons8-w-key-16.png" type="image/x-icon">
     <title>Anime.WL</title>
     <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/cellstyle.css">
+    <link rel="stylesheet" href="Style/cell2style.css">
+    <link rel="stylesheet" href="Style/scroll.css">
     <style> 
         body{ background-color: #212121;
             color: rgb(0, 0, 0);
             margin: 0px;
         }
         #busca{
-            width: 800px;
-            height: 500px;
+            max-width: 900px;
+            width: 100%;
+            height: 100%;
+            min-height: 500px;
             background-color: #0E0E0E;
             margin: auto;
             margin-top: 1px;
@@ -31,26 +36,22 @@
 <body>
         <h1 id="br" style="line-height: normal 20pt;
         background: #0E0E0E;
-        width: 1330px;
-        padding-right: 18px;
         display: inline-block;">
         <div id="cr" style="font-size: 27px;
         display: inline-block;
-        text-align: start;
-        width: 32px; 
+        text-align: center;
+        width: 40px; 
         " onclick="clickMenu()">&#9776;</div>
-        <a id="mx" href="index.html" style="color: rgb(212, 32, 47);
-        display: inline-block;">Animes Willo</a>
+        <div id="mx" href="index.html" style="color: rgb(212, 32, 47);
+        display: inline-block;">Animes <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""> Willo</div>
         <div id="mg">
+            <form method="get" action="alfabeto/All.html" id="searchform">
 
-            
-            <form action="alfabeto/All.html" method="get" id="searchform">
-                <input class="k9" type="search" maxlength="20" placeholder="Procurar Anime" on name="procura" id="procura" autocomplete="off" >
-                <input type="button" class="k9" onclick="procura()" value="⨀">
-                <div class="content"></div>
+                <input class="k9" type="search" maxlength="20" placeholder="Procurar Anime" name="procura" id="procura" autocomplete="off" ><input type="button" id="procurase" value="🔎">
+
             </form>
-        </div>
-        <img id="perfil" src="Imagens/perfil.png"  onclick="login()" alt=""></h1>
+        </div></h1>
+        <div id="res"></div>
         <menu id="itens">
             <ul>
                 <h4>Generos</h4>
@@ -73,8 +74,7 @@
             <li><a href="perfil.html">Perfil</a></li>
             <li><a href="cadastro.html">Cadastre-se</a></li>
         </menu>
-        <div class="f3" href="download.jpg" style=" height: 26px;
-        width: 1337px;
+        <div class="f3" href="download.jpg" style=" height: 40px;
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         background-color: #0E0E0E;

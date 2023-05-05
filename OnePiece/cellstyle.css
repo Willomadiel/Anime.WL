@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width: 100px) and (max-width: 910px){
+@media screen and (min-width: 100px) and (max-width: 1330px){
     #d0{
         display: none;
     }
@@ -71,5 +71,11 @@
     }
     ul > a{
         font-size: 18px;
+    }
+    #itens li{
+        width: 80px;
+    }
+    #log li{
+        width: 80px;
     }
 }

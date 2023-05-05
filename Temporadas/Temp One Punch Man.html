@@ -4,33 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cellstyle.css">
     <link rel="shortcut icon" href="Icons/icons8-w-key-16.png" type="image/x-icon">
-    <title>Anime: One Punch Man</title>
-    <style>
-        div#p1{
-        background-image: url('Img-Temp/One\ punch.jpg');
-        display: inline-block;
-    }
-</style>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="stylesheet" href="maior.css">
+    <title>Anime: One Punch-Man</title>
 </head>
 <body>
     <h1 id="br" style="line-height: normal 20pt;
     background: #0E0E0E;
-    width: 1348px;
     display: inline-block;">
     <div id="cr" style="font-size: 27px;
     display: inline-block;
-    text-align: start;
-    width: 32px; 
+    text-align: center;
+    width: 40px; 
     " onclick="clickMen()">&#9776;</div>
-    <a id="mx" href="../index.html" style="color: rgb(212, 32, 47);
-    display: inline-block;">Animes Willo</a>
+    <div id="mx" href="../index.html" style="color: rgb(212, 32, 47);
+    display: inline-block;">Animes <img id="perfil" src="Icons/perfil.png"  onclick="login()" alt=""> Willo</div>
+
     <div id="mg">
-        <input class="k9" type="search" placeholder="Procurar Anime" name="procura" id="procura">
-        <input type="button" class="k9" onclick="procura()" value="⨀">
-    </div>
-    <img id="perfil" src="Icons/perfil.png"  onclick="login()" alt=""></h1>
+        <form method="get" action="../alfabeto/All.html" id="searchform">
+
+            <input class="k9" type="search" maxlength="20" placeholder="Procurar Anime" name="procura" id="procura" autocomplete="off" ><input type="button" id="procurase" value="🔎">
+
+        </form>
+    </div></h1>
     <menu id="itens">
         <ul>
             <h4>Generos</h4>
@@ -49,12 +48,12 @@
         </ul>
     </menu>
     <menu id="log">
+        <li ><a href="../index.html">Inicio</a></li>
         <li><a href="../Conta.html">Login</a></li>
         <li><a href="../perfil.html">Perfil</a></li>
         <li><a href="../cadastro.html">Cadastre-se</a></li>
     </menu>
-    <div class="f3" href="download.jpg" style=" height: 26px;
-    width: 1337px;
+    <div class="f3" href="download.jpg" style=" height: 45px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #0E0E0E;
@@ -88,252 +87,305 @@
         <li><a href="../alfabeto/Letra-Z.html">Z</a></li>
         <li><a href="../alfabeto/All.html">#</a></li>
     </div>
-    <main>
-        <div class="p1" id="p1">
-        </div>
-        <div class="p1" id="p2">
-            <span>One punch Man</span>
-            <p>A história se passa em cidades japonesas fictícias, especialmente na chamada de Cidade Z, onde aparecem com grande frequência seres monstruosos que causam vários desastres. Após treinar durante três anos, Saitama, o protagonista, se tornou um herói não oficial incrivelmente forte que derrota monstros ou outros vilões com um único soco.</p>
-            <div class="anony" id="thor">
-                4.9 ⭐
+    <header>
+        <main id="ain">
+            <div id="p0">
+                <div id="will">
+                    <div id="jg"><img src="Img-Temp/One punch.jpg" id="p1" alt=""></div>
+                    <div id="tit">One Punch-Man</div>
+                        <div id="tho">
+                            <div>4.9 ⭐</div>
+                        </div>
+                        <div id="toxic">
+                            <div class="gener">
+                                <a href="../alfabeto/Poderes.html">Poderes</a>
+                            </div>
+                            <div class="gener">
+                                <a href="../alfabeto/Aventura.html">Aventura</a>
+                            </div>
+                            <div class="gener">
+                                <a href="../alfabeto/Letra-U.html">Luta</a>
+                            </div>
+                            <div class="gener">
+                                <a href="../alfabeto/Comedia.html">Comedia</a>
+                            </div>
+                            
+                        </div>
+                </div>
+                </div>
+                <div class="p1" id="p2">
+                    <p id="text">A história se passa em cidades japonesas fictícias, especialmente na chamada de Cidade Z, onde aparecem com grande frequência seres monstruosos que causam vários desastres. Após treinar durante três anos, Saitama, o protagonista, se tornou um herói não oficial incrivelmente forte que derrota monstros ou outros vilões com um único soco. No entanto, devido à sua força esmagadora, Saitama tornou-se entediado e está constantemente tentando encontrar adversários mais fortes que podem lutar de igual contra ele.</p>
+                    <div id="maga"></div>
+                </div>
             </div>
-            <p class="anony">Ação</p>
-            <p class="anony">Poderes</p>
-            <p class="anony">shoujo</p>
-            <p class="anony">Luta</p>
-            <p class="anony">Comedia</p>
-            <p class="anony">Shounen</p>
+            <div id="totality">
+                <div class="l6" id="l1">
+                    <a onclick="clickMenu()" > Temporada 1</a></div>
+                <div id="temp1" class="one" >
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 1</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 2</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 3</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 4</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 5</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 6</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 7</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 8</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 9</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 10</a>
+                </div>
+            </div>
+            <div>
+                <div class="l6" id="l1">
+                    <a onclick="clickMenu2()" > Temporada 2</a></div>
+                <div id="temp2" class="one" >
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 1</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 2</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 3</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 4</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 5</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 6</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 7</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 8</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 9</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 10</a>
+                </div>
+            </div>
+            <div>
+                <div class="l6" id="l1">
+                    <a onclick="clickMenu3()" > Temporada 3</a></div>
+                <div id="temp3" class="one" >
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 1</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 2</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 3</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 4</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 5</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 6</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 7</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 8</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 9</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 10</a>
+                </div>
+            </div>
+            <div>
+                <div class="l6" id="l1">
+                    <a onclick="clickMenu4()" > Temporada 4</a></div>
+                <div id="temp4" class="one">
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 1</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 2</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 3</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 4</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 5</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 6</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 7</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 8</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 9</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 10</a>
+                </div>
+            </div>
+            <div>
+                <div class="l6" id="l1">
+                    <a onclick="clickMenu5()" > Temporada 5</a></div>
+                <div id="temp5" class="one" >
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 1</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 2</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 3</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 4</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 5</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 6</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 7</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 8</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 9</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 10</a>
+                </div>
+            </div>
+            <div>
+                <div class="l6" id="l1">
+                    <a onclick="clickMenu6()" > Temporada 6</a></div>
+                <div id="temp6" class="one" >
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 1</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 2</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 3</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 4</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 5</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 6</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 7</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 8</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 9</a>
+                    </div>
+                    <div class="d1">
+                        <a href="../OnePiece/eps1.html">Episodio 10</a>
+                </div>
+            </div>
+        </main>
+            <div class="d8" id="d0">
+                <p class="p8">Animes Populares</p>
+                <div class="d1lado" id="onep">
+                    <a class="" href="Temp One Punch Man.html"><img src="Imagens/n1.jpeg" alt=""><br><p>One Punch man</p></a>
+                </div>
+                <div class="d1lado">
+                    <a href="Temp One Piece.html"><img src="Imagens/n2.jpeg" alt=""><br><p>One Piece</p></a>
+                </div>
+                <br><div class="d1lado">
+                    <a class="" href="Temp Dragon Ball.html"><img src="Imagens/n3.jpeg" alt=""><br><p>Dragon Ball Super</p></a>
+                </div>
+                <div class="d1lado">
+                    <a href="Temp Death Note.html"><img src="Imagens/n4.jpeg" alt=""><br><p>Death Note</p></a>
+                </div>
+                <p class="j8">Previa do Anime</p>
+                <video width="400" height="265" src="Trailer/one-punch-man-trailer-legendado-pt-br.mp4" frameborder="0" controls poster="Imagens/e9.jpeg" ></video>
+        </div>
+        <div id="master">
+            <div class="j8" id="cant">
+                Lançamentos
+            </div>
+            <div class="protagoxx">
+                <a href="Temp Demon Slayer.html"><img class="i1" src="../imgpesquisa/demon slayer.jpeg" alt="Anime"><br><p>Demon Slayer</p></a>
+            </div>
+            <div class="protagoxx" id="brow">
+                <a href="Temp Vinland Saga.html"><img class="i1" src="../imgpesquisa/Viland saga.jpg" alt="Anime"><br><p>Vinland Saga</p></a>
+            </div>
+            <div class="protagoxx">
+                <a href="Temp Jujutsu Kaisen.html"><img class="i1" src="../imgpesquisa/jujutsu kaisen.jpeg" alt="Anime"><br><p>Jujutsu Kaisen</p></a>
+            </div>
+            <div class="protagoxx">
+                <a href="Temp Boku no Hero.html"><img class="i1" src="../imgpesquisa/boku no hero.jpeg" alt="Anime"><br><p>Boku no Hero</p></a>
+            </div>
+            <div class="protagoxx" id="caiu1">
+                <a href="Temp Blue Lock.html"><img class="i1" src="../imgpesquisa/Blue lock.jpg" alt="Anime"><br><p>Blue Lock</p></a>
+            </div>
+            <div class="protagoxx" id="caiu2">
+                <a href="Temp Dragon Ball.html"><img class="i1" src="../imgpesquisa/DBZ Super.jpeg" alt="Anime"><br><p>Dragon Ball Super</p></a>
+            </div>
+        </div>
+        <div class="cachorro">
+            <div id="cat">
+                Deixe seu Comentarios: <br>
+                <img src="Imagens/wqdddwq.jpeg" alt="img" id="iframe1"> <textarea name="sobre" id="grad" cols="30" rows="10" placeholder="Comentario sobre o Anime..."></textarea> <br>
+                <div id="charm">
+                    Para Fazer um comentario e preciso estar longado na conta.
+                </div>
+                <input type="button" id="publico" value="Publicar Comentario"><input type="button" id="publicc" value="Fazer Login">
+            </div>
+            <div id="dog">
+                Comentarios:
+            </div>
         </div>
         <div>
-            <div class="l6" id="l1">
-                <a onclick="clickMenu()" > Temporada 1</a></div>
-            <div id="temp1" class="one" >
-                <div class="d1">
-                    <a href="a">Episodio 1</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 2</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 3</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 4</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 5</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 6</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 7</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 8</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 9</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 10</a>
-            </div>
         </div>
-        <div>
-            <div class="l6" id="l1">
-                <a onclick="clickMenu2()" > Temporada 2</a></div>
-            <div id="temp2" class="one" >
-                <div class="d1">
-                    <a href="a">Episodio 1</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 2</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 3</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 4</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 5</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 6</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 7</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 8</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 9</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 10</a>
-            </div>
-        </div>
-        <div>
-            <div class="l6" id="l1">
-                <a onclick="clickMenu3()" > Temporada 3</a></div>
-            <div id="temp3" class="one" >
-                <div class="d1">
-                    <a href="a">Episodio 1</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 2</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 3</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 4</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 5</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 6</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 7</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 8</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 9</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 10</a>
-            </div>
-        </div>
-        <div>
-            <div class="l6" id="l1">
-                <a onclick="clickMenu4()" > Temporada 4</a></div>
-            <div id="temp4" class="one">
-                <div class="d1">
-                    <a href="a">Episodio 1</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 2</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 3</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 4</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 5</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 6</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 7</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 8</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 9</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 10</a>
-            </div>
-        </div>
-        <div>
-            <div class="l6" id="l1">
-                <a onclick="clickMenu5()" > Temporada 5</a></div>
-            <div id="temp5" class="one" >
-                <div class="d1">
-                    <a href="a">Episodio 1</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 2</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 3</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 4</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 5</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 6</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 7</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 8</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 9</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 10</a>
-            </div>
-        </div>
-        <div>
-            <div class="l6" id="l1">
-                <a onclick="clickMenu6()" > Temporada 6</a></div>
-            <div id="temp6" class="one" >
-                <div class="d1">
-                    <a href="a">Episodio 1</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 2</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 3</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 4</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 5</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 6</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 7</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 8</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 9</a>
-                </div>
-                <div class="d1">
-                    <a href="a">Episodio 10</a>
-            </div>
-        </div>
-    </main>
-    <div class="d8">
-        <p class="p8">Animes Populares</p>
-        <div class="d1lado" id="onep">
-            <a class="" href="Temp One Punch Man.html"><img src="Imagens/n1.jpeg" alt=""><br><p>One Punch man</p></a>
-        </div>
-        <div class="d1lado">
-            <a href="Temp One Piece.html"><img src="Imagens/n2.jpeg" alt=""><br><p>One Piece</p></a>
-        </div>
-        <br><div class="d1lado">
-            <a class="" href="Temp Dragon Ball.html"><img src="Imagens/n3.jpeg" alt=""><br><p>Dragon Ball Super</p></a>
-        </div>
-        <div class="d1lado">
-            <a href="Temp Death Note.html"><img src="Imagens/n4.jpeg" alt=""><br><p>Death Note</p></a>
-        </div>
-        <p class="j8">Previa do Anime</p>
-        <video width="400" height="265" src="Trailer/one-punch-man-trailer-legendado-pt-br.mp4" frameborder="0" controls poster="Imagens/e9.jpeg" ></video>
-        
-    </div>
-    <h2>
+    </header>
+    <h2 id="ainnn">
         <p>Criador: Willomadiel</p>
         <a href="https://www.facebook.com/profile.php?id=100054394630823" target="_blank"><img src="Imagens/icons8-facebook-64.png" alt=""></a>
         <a href="https://www.instagram.com/willomadiel/" target="_blank"><img src="Imagens/icons8-instagram-64.png" alt=""></a>
