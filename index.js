@@ -22,7 +22,7 @@ function procuras(){
         window.location.href='Erro.html'
         return;
     }
-document.getElementById('res').textContent = valor
+    window.location.href='alfabeto/all.html'
 } 
 var procurase = document.getElementById('procurase')
 procurase.addEventListener('click', procuras)
