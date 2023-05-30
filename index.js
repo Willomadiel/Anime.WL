@@ -27,6 +27,10 @@ function procuras(){
 var procurase = document.getElementById('procurase')
 procurase.addEventListener('click', procuras);
 
+var urlParams = new URLSearchParams(window.location.search);
+var valor = urlParams.get('variavel');
+
+console.log(valor);
 
 
 

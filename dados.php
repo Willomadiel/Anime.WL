@@ -19,7 +19,9 @@
     $resultado = mysqli_query($conn, $sql);
     if ($resultado) {
         echo "Dados inseridos com sucesso!";
-        header("Location: perfil.html");
+        header("Location: conta.html");
+        $valor = "nome"; // Valor da variável que você deseja enviar
+        $url = "pagina.js?variavel=" . urlencode($valor);
         exit;
     } else {
         echo "Erro ao inserir dados: " . mysqli_error($conn);
@@ -28,4 +30,5 @@
     }
   mysqli_close($conn);
 ?>
+<a href="<?php echo $url; ?>"></a>;
 
