@@ -1,3 +1,8 @@
+<?php
+$user = $_GET['user'];
+$senha = $_GET['senha'];
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,11 +18,9 @@
     <style>
         body{
             background-color: rgb(44, 43, 43);
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            margin-top: 0px;
-            margin-bottom: 0px;
             margin: 0px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
         }
         fieldset{
             display: block;
@@ -28,6 +31,7 @@
             background-color: rgb(75, 75, 75);
             border-color: rgb(233, 58, 58);
             margin-bottom: 2px;
+            font-size: 17px;
         }
         fieldset > legend{
             font-size: 30px;
@@ -35,13 +39,10 @@
             color: rgb(247, 247, 247)
         }
         fieldset #j1{
-            margin-left: 45px;
-            height: 60px;
-            width: 60%;
+            margin-left: 35px;
             background-color: rgb(43, 146, 230);
             font-size: 20px;
             margin-top: 50px;
-            cursor: pointer;
         }
         .s1{
             height: 45px;
@@ -54,9 +55,7 @@
         h1{
             font-family: Arial, Helvetica, sans-serif;
             margin: 0px;
-            margin-bottom: 1px;
-            padding-right: 20px;
-            text-align: start;
+            padding: 0px;
         }
         #cr{
             border: rgb(116, 3, 3);
@@ -75,6 +74,7 @@
             text-decoration: none;
             padding-top: 10px;
             padding-left: 10px;
+            margin-top: 1px;
         }
         .l1{
             font-size: 18px;
@@ -83,6 +83,7 @@
             display: block;
         }
         h2{
+            width: 100%;
             height: 110px;
             background-color: #0E0E0E;
             text-align: center;
@@ -122,23 +123,56 @@
             font-size: 20px;
             margin-top: 40px;
             display: block;
-            padding-left: 30px;
+            padding-left: 50px;
             color: rgb(0, 15, 228);
         }
-        #j7{
-            color: rgb(212, 32, 47);
-            text-decoration: none;
-            font-size: 30px;
+        header{
+            width: 100%;
+            display: inline-block;
+            text-align: start;
         }
-        #file{
-            width: 156px;
-            display: block;
+        #arquivo{
+            width: 130px;
         }
-        #br{
+        #frame{
+            width: 142px;
+            height: 146px;
+        }
+        #sob{
+            margin: 0px;
+        }
+        header li{
+            padding: 4px;
+            list-style-type: none;
+        }
+        #sob2{
+            display: inline-block;
+            background-color: rgb(92, 158, 233);
             text-align: center;
+            color: black;
+            background-color: rgb(44, 42, 42);
+            width: 100%;
         }
-        #to{
-            font-size: 18px;
+        .li{
+            display: inline-block;
+            border-bottom: 2px rgb(207, 53, 53) solid ;
+            padding-left: px;
+            margin: 0px;
+        }
+        div p{
+            background-color: #0E0E0E;
+            margin: 0px;
+            padding: 0px;
+            color: rgb(80, 90, 231);
+        }
+        #sob{
+            margin: 0px;
+            width: 100px;
+        }
+        #j7{
+            text-decoration: none;
+            color: rgb(212, 32, 47);
+            font-size: 30px;
         }
     </style>
 </head>
@@ -216,18 +250,43 @@
         <li><a href="alfabeto/Letra-Z.html">Z</a></li>
         <li><a href="alfabeto/All.html">#</a></li>
     </div>
-    <form action="confirm.php" method="post">
+    <form action="Cadastro.py" method="post">
         <fieldset id="f1">
-            <legend>Login na Conta</legend>
-            <p><label for="name">Usuario:</label>
-                <input type="text" name="nome" id="name" required minlength="5" class="s1" maxlength="30" placeholder="Digite Seu Nome"></p>
-            <p><label for="password">Senha:</label>
-                <input type="password" name="senha" id="password" required minlength="8" maxlength="20" class="s1" placeholder="Digite sua Senha"></p>
-            <p><label for="password">Autenticação</label>
-                <input type="password" name="autentic" id="atentic" class="s1" placeholder="Digite o Codigo"></p>
-                <div id="to"><input type="checkbox" name="lembrar" checked id="toremember">Lembrar senha</div>
-            <input type="submit" id="j1" value="Login">
-            <a id="k6" href="cadastro.html">Não tem uma conta?(clique aqui)</a>
+            <legend>Seu Perfil</legend>
+            <header style="background-color: rgb(20, 20, 20)"> <img id="frame" src="Imagens/perfil.png" frameborder="0"></img><main id="sob" style="display: inline-block;">
+                <li style="color: red;">ADM</li> 
+                <li style="color: rgb(68, 245, 24);">Brasileiro</li> 
+                <li style="color: blue;">OTaku</li>
+                <li style="color: yellow;">Competidor</li>
+                <li style="color: darkorange;">Tecnico Manutenção</li></main>
+                <div id="sob2"><p>Medalhas</p><br>
+                <li class="li">🥇</li> 
+                <li class="li">🥈</li> 
+                <li class="li">🥉</li>
+                <li class="li">🏅</li>
+                <li class="li">🎖</li>
+                <li class="li">🏆</li>
+                <li class="li">🏆</li><br>
+                <li class="li">🥇</li> 
+                <li class="li">🥈</li> 
+                <li class="li">🥉</li>
+                <li class="li">🏅</li>
+                <li class="li">🎖</li>
+                <li class="li">🏆</li>
+                <li class="li">🏆</li><br>
+                <li class="li">🥇</li> 
+                <li class="li">🥈</li> 
+                <li class="li">🥉</li>
+                <li class="li">🏅</li>
+                <li class="li">🎖</li>
+                <li class="li">🏆</li>
+                <li class="li">🏆</li>
+            </div></header>
+            <p id="joao">Usuario: <?php echo $user ?> </p>
+            <p id="pedro">Idade: <?php echo $senha ?></p>
+            <p>Nova Foto Perfil: <br><input type="file" name="file" id="arquivo"></p>
+            <p id="so">Sobre Você:</p>
+            <textarea name="sobre" id="sobrevc" cols="30" rows="10" placeholder="Digite Coisas sobre você..."></textarea>
         </fieldset>
     </form>
     <h2>
@@ -236,6 +295,30 @@
         <a href="https://www.instagram.com/willomadiel/" target="_blank"><img src="Imagens/icons8-instagram-64.png" alt=""></a>
         <a href="https://twitter.com/willomadiel" target="_blank"><img src="Imagens/icons8-twitter-64.png" alt=""></a>
     </h2>
-<script src="index.js"></script>
+<script>
+function login(){
+    if (log.style.display == 'block' || itens.style.display == 'block') {
+        itens.style.display = 'none'
+        log.style.display = 'none'
+    } else {
+        log.style.display = 'block'
+    }
+}
+function clickMenu(){
+    if (itens.style.display == 'block' || log.style.display == 'block') {
+        itens.style.display = 'none'
+        log.style.display = 'none'
+    } else {
+        itens.style.display = 'block'
+    }
+
+}
+var proc = document.getElementById('procura')
+function procura(){
+    proc.localName()
+} 
+let content = document.querySelector('.content');
+let inputSearch = document.querySelector("input[type='search']");
+    </script>
 </body>
 </html>

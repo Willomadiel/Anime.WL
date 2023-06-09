@@ -22,15 +22,14 @@ function procuras(){
         lista = valor
         return;
     }
-    window.location.href='resposta.html'
+    window.location.href='../resposta.html'
 } 
 var procurase = document.getElementById('procurase')
-procurase.addEventListener('click', procuras);
+procurase.addEventListener('click', procuras)
 
-var urlParams = new URLSearchParams(window.location.search);
-var valor = urlParams.get('variavel');
 
-console.log(valor);
+
+
 
 
 
