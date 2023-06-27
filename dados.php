@@ -26,7 +26,7 @@
     $mail->setFrom('animeswillo@gmail.com', 'Animes Willo'); // Remetente
     $mail->addAddress($gmail, $nome); // Destinatário
     $mail->Subject = 'Codigo de Autenticação';
-    $mail->Body = 'Seja-Bem Vindo!!'. $nome .'<br>'. 'Espero que você supere seus limits, my brother.'. '<br>'.'Aqui está Seu Codigo de autenticação:'. $valorAleatorio;
+    $mail->Body = 'Seja-Bem Vindo!!'. $nome . 'Espero que você supere seus limits, my brother.'.  'Aqui está Seu Codigo de autenticação:'. $valorAleatorio;
     $mail->send();
 
     $servername = "localhost";
@@ -40,24 +40,24 @@
         die('Erro ao conectar ao banco de dados:'. $conn->error);
         exit;
       }else{
-        echo 'funcionou!!';
-      }
-      
-      if ($result->num_rows > 0) {
-        while($row = $result->fetch_assoc()) {
-          echo "gmail: " . $row["gmail"]. " - Nome: " . $row["nome"]. "<br>";
-          if ($row["gmail"] == $gmail || $row["nome"] == $nome) {
-            header("Location: cadastro.html");
-            die();
+        
+        if ($result->num_rows > -1) {
+          while($row = $result->fetch_assoc()) {
+            echo "gmail: " . $row["gmail"]. " - Nome: " . $row["nome"]. "<br>";
+            if ($row["gmail"] == $gmail || $row["nome"] == $nome) {
+              header("Location: cadastro.html");
+              echo 'Ja tem alguem usando esse nome de usuario ou esse gmail.';
+              die();
+            }
           }
-        }
-          $sql = "INSERT INTO usuarios (nome, gmail, senha, Nascimento, autentic) VALUES ('$nome', '$gmail', '$senha', '$data', '$valorAleatorio')";   
-          $resultado = $conn->query($sql);
-            header("Location: conta.html");
-            exit;
-          } else {
-            echo "Erro ao inserir dados: " . mysqli_error($conn);
-            header("Location: cadastro.html");
-            exit;
+            $sql = "INSERT INTO usuarios (nome, gmail, senha, Nascimento, autentic) VALUES ('$nome', '$gmail', '$senha', '$data', '$valorAleatorio')";   
+            $resultado = $conn->query($sql);
+              header("Location: conta.html");
+              exit;
+            } else {
+              echo "Erro ao inserir dados: " . mysqli_error($conn);
+              header("Location: cadastro.html");
+              exit;
+            }
           }
 ?>

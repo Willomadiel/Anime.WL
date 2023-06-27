@@ -285,8 +285,6 @@ $senha = $_GET['senha'];
             <p id="joao">Usuario: <?php echo $user ?> </p>
             <p id="pedro">Idade: <?php echo $senha ?></p>
             <p>Nova Foto Perfil: <br><input type="file" name="file" id="arquivo"></p>
-            <p id="so">Sobre Você:</p>
-            <textarea name="sobre" id="sobrevc" cols="30" rows="10" placeholder="Digite Coisas sobre você..."></textarea>
         </fieldset>
     </form>
     <h2>
