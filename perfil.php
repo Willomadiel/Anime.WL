@@ -1,7 +1,8 @@
 <?php
-$user = $_GET['user'];
-$senha = $_GET['senha'];
-
+    session_start();
+    $nomeDoUsuario = $_SESSION['nome'];
+    $idade = $_SESSION['idade'];
+    $femimascu = $_SESSION['genero'];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -137,9 +138,11 @@ $senha = $_GET['senha'];
         #frame{
             width: 142px;
             height: 146px;
+            float: left;
         }
         #sob{
             margin: 0px;
+            
         }
         header li{
             padding: 4px;
@@ -150,13 +153,13 @@ $senha = $_GET['senha'];
             background-color: rgb(92, 158, 233);
             text-align: center;
             color: black;
-            background-color: rgb(44, 42, 42);
+            background-color: rgb(20, 20, 20);
             width: 100%;
+            padding-bottom: 5px;
         }
         .li{
             display: inline-block;
             border-bottom: 2px rgb(207, 53, 53) solid ;
-            padding-left: px;
             margin: 0px;
         }
         div p{
@@ -168,11 +171,47 @@ $senha = $_GET['senha'];
         #sob{
             margin: 0px;
             width: 100px;
+            text-align: center;
         }
         #j7{
             text-decoration: none;
             color: rgb(212, 32, 47);
             font-size: 30px;
+        }
+        #namespace{
+            font-size: xx-large;
+            margin: 0px;
+            text-align: center;
+        }
+        .tres{
+            margin: 0px;
+            margin-left: 150px;
+        }
+        #carlitos{
+            background-color: silver;
+            width: 200px;
+            height: 24px;
+            text-align: center;
+            width: 100%;
+        }
+        #dororo > p{
+            background-color: rgb(44, 43, 43);
+            margin-top: 20px;
+            color: black;
+        }
+        #dororo{
+            padding: 10px;
+        }
+        #vraunelas{
+            background-color: rgb(44, 43, 43);
+        }
+        #lusgrandi{
+            background-color: rgb(44, 43, 43);
+            height: 26px;
+        }
+        #perfiluser{
+            margin-left: 8px; 
+            cursor: pointer;  
         }
     </style>
 </head>
@@ -253,12 +292,16 @@ $senha = $_GET['senha'];
     <form action="Cadastro.py" method="post">
         <fieldset id="f1">
             <legend>Seu Perfil</legend>
-            <header style="background-color: rgb(20, 20, 20)"> <img id="frame" src="Imagens/perfil.png" frameborder="0"></img><main id="sob" style="display: inline-block;">
-                <li style="color: red;">ADM</li> 
-                <li style="color: rgb(68, 245, 24);">Brasileiro</li> 
-                <li style="color: blue;">OTaku</li>
-                <li style="color: yellow;">Competidor</li>
-                <li style="color: darkorange;">Tecnico Manutenção</li></main>
+            <header style="background-color: rgb(20, 20, 20)"> 
+            <img id="frame" src="Imagens/perfil.png" frameborder="0">
+            </img>
+            <p id="namespace"><?php echo $nomeDoUsuario ?></p>
+            <p class="tres">genero: <?php echo $femimascu ?></p>
+            <p class="tres">Nascimento: <?php echo $idade ?></p>
+            <p class="tres">Nivel: Membro</p>
+            <p class="tres">Guilda: Sem Guilda</p>
+            <input type="file" accept="jpg, png, gif, jpeg, tiff, raw" name="foto perfil" class="custom-file-input" id="perfiluser">
+            </header>
                 <div id="sob2"><p>Medalhas</p><br>
                 <li class="li">🥇</li> 
                 <li class="li">🥈</li> 
@@ -282,9 +325,35 @@ $senha = $_GET['senha'];
                 <li class="li">🏆</li>
                 <li class="li">🏆</li>
             </div></header>
-            <p id="joao">Usuario: <?php echo $user ?> </p>
-            <p id="pedro">Idade: <?php echo $senha ?></p>
-            <p>Nova Foto Perfil: <br><input type="file" name="file" id="arquivo"></p>
+            <div id="vraunelas">
+                <div id="dororo">
+                <input type="text" placeholder="Lembrete..." name="sobregg" id="carlitos">
+                    <p>Anime Favorito: 
+                        <input type="text" placeholder="Digite Aqui..." name="los" id="lusgrandi">
+                    </p>
+                    <p>Recomendação: 
+                        <input type="text" placeholder="Digite Aqui..." name="los" id="lusgrandi">
+                    </p>
+                    <p>Superestimado: 
+                        <input type="text" placeholder="Digite Aqui..." name="los" id="lusgrandi">
+                    </p>
+                    <p>Personagem Fav: 
+                        <input type="text" placeholder="Digite Aqui..." name="los" id="lusgrandi">
+                    </p>                
+                    <p>link: 
+                        <input type="text" placeholder="Digite Aqui..." name="los" id="lusgrandi">
+                    </p>
+                    <p>link: 
+                        <input type="text" placeholder="Digite Aqui..." name="los" id="lusgrandi">
+                    </p>
+                    <p>link: 
+                        <input type="text" placeholder="Digite Aqui..." name="los" id="lusgrandi">
+                    </p>
+                    <p>link: 
+                        <input type="text" placeholder="Digite Aqui..." name="los" id="lusgrandi">
+                    </p>
+                </div>
+            </div>
         </fieldset>
     </form>
     <h2>

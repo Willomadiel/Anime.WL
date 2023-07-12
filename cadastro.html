@@ -201,7 +201,13 @@
                 <input type="password" name="senha" id="password" required minlength="8" maxlength="20" class="s1" placeholder="Digite sua Senha"></p>
             <p><label for="date">Data Nascimento:</label>
                 <input type="date" class="s1" name="data" id="date" required></p>
-            <input type="submit" id="j1" value="Cadastrar">
+            <p>
+                <label onclick="checar1()" for="masculo">Masculino</label><input type="radio" value="Masculino" onclick="checar1()" checked name="genero" id="masculo">
+                <label onclick="checar()" for="femile">Feminino</label><input type="radio" value="Feminino" onclick="checar()" name="genero" id="femile">
+            </p>
+
+
+            <input type="submit" onclick="eviando()" id="j1" value="Cadastrar">
             <a class="l1" href="Conta.html">Ja tem uma conta?(Clique Aqui)</a>
             <div id="kk4"></div>
         </fieldset>
@@ -228,14 +234,20 @@
         } else {
             itens.style.display = 'block'
         }
-
 }
     var proc = document.getElementById('procura')
     function procura(){
         proc.localName()
     } 
     let content = document.querySelector('.content');
-    let inputSearch = document.querySelector("input[type='search']")
+    let inputSearch = document.querySelector("input[type='search']");
+
+    function checar(){
+        document.getElementById('masculo').checked = false;
+    }
+    function checar1(){
+        document.getElementById('femile').checked = false;
+    }
     </script>
 </body>
 </html>

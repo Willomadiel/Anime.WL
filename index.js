@@ -21,8 +21,10 @@ function procuras(){
         window.location.href='Erro.html'
         lista = valor
         return;
+    }else{
+        window.location.href='../resposta.php'
     }
-    window.location.href='../resposta.html'
+   
 } 
 var procurase = document.getElementById('procurase')
 procurase.addEventListener('click', procuras)
