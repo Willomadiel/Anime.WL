@@ -252,7 +252,7 @@
         <menu id="log">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="Conta.html">Login</a></li>
-            <li><a href="perfil.html">Perfil</a></li>
+            <li><a href="perfil.php">Perfil</a></li>
             <li><a href="cadastro.html">Cadastre-se</a></li>
         </menu>
         <div class="f3" href="download.jpg" style=" height: 40px;
