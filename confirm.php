@@ -24,30 +24,20 @@
             $idade = $row["Nascimento"];
             $sql = "SELECT nome, senha, autentic FROM Cadastrados";
             $result = $conn->query($sql); 
-            if ($result->num_rows > -1) {
+            if ($result->num_rows > 0) {
               while($row = $result->fetch_assoc()) {
                 if ($row["senha"] == $senha && $row["nome"] == $user && $row["autentic"] == $codigo){
-                  header("Location: perfil.php?user=");
+                  header("Location: perfil.php");
                   $_SESSION['nome'] = $usuario;
                   $_SESSION['idade'] = $idade;
                   $_SESSION['genero'] = $femimascu;
-                  $conta =+ 1;
                   exit;
-                }
-                if ($conta === 0){
-                    $sql = "INSERT INTO Cadastrados (nome, senha, autentic) VALUES ('$user', '$senha', '$codigo')";   
-                    $resultado = $conn->query($sql);
-                    header("Location: perfil.php?user=" . urlencode($user) . "&senha=" . $senha);
-                    $_SESSION['nome'] = $usuario;
-                    $_SESSION['idade'] = $idade;
-                    $_SESSION['genero'] = $femimascu;
-                    exit;
-                  } 
+                }  
               } 
             }else{
               $sql = "INSERT INTO Cadastrados (nome, senha, autentic) VALUES ('$user', '$senha', '$codigo')";   
               $resultado = $conn->query($sql);
-              header("Location: perfil.php?user=" . urlencode($user) . "&senha=" . $senha);
+              header("Location: perfil.php");
               $_SESSION['nome'] = $usuario;
               $_SESSION['idade'] = $idade;
               $_SESSION['genero'] = $femimascu;

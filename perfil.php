@@ -213,6 +213,20 @@
             margin-left: 8px; 
             cursor: pointer;  
         }
+        #saveme{
+            background-color: aqua;
+            float: right;
+            margin-top: 30px;
+        }
+        #sairme{
+            background-color: lightcoral;
+            margin-top: 30px;
+        }
+        #jubis{
+            float: left;
+            display: inline-block;
+            margin: 0px;
+        }
     </style>
 </head>
 <body>
@@ -352,6 +366,9 @@
                     <p>link: 
                         <input type="text" placeholder="Digite Aqui..." name="los" id="lusgrandi">
                     </p>
+                    <div><input type="button" id="saveme" value="Salvar Alterações"></div>
+                    <div><input type="button" id="sairme" value="Sair da Conta"></div>
+                    <p></p>
                 </div>
             </div>
         </fieldset>
